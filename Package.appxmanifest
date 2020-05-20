@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="132728F202473.SJCAMZoneUWP" Publisher="CN=1BA38505-6371-40A7-93F7-979CEDF22649" Version="1.1.1.0" />
+  <mp:PhoneIdentity PhoneProductId="d6e8cc26-c26b-4d99-918f-21e5c4190124" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>SJCAM Zone UWP</DisplayName>
+    <PublisherDisplayName>Максим Гутиков</PublisherDisplayName>
+    <Logo>Assets\Img\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="SJCAM_Zone.App">
+      <uap:VisualElements DisplayName="SJCAM Zone UWP" Square150x150Logo="Assets\Img\Square150x150Logo.png" Square44x44Logo="Assets\Img\Square44x44Logo.png" Description="SJCAM_Zone" BackgroundColor="transparent">
+        <uap:DefaultTile Square310x310Logo="Assets\Img\LargeTile.png" Wide310x150Logo="Assets\Img\Wide310x150Logo.png" Square71x71Logo="Assets\Img\SmallTile.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\Img\SplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="ToastNotificationComponent.NotificationBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
+    <uap:Capability Name="videosLibrary" />
+  </Capabilities>
+</Package>

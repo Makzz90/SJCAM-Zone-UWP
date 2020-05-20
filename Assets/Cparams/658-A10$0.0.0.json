@@ -1,0 +1,1419 @@
+{
+  "launchImage" : [
+    {
+      "launchImage_6s" : "",
+      "launchImage_6p" : "",
+      "launchImage_5s" : "",
+      "launchImage_4s" : ""
+    }
+  ],
+  "modify_on" : "",
+  "is_enabled" : true,
+  "devicename" : "658-A10",
+  "version" : "658-A10",
+  "support" : "http:\/\/support.sjcam.com\/support\/home",
+  "company" : "SJCAM",
+  "logo" : "",
+  "download" : "",
+  "chip" : 2,
+  "noticeList" : [
+
+  ],
+  "panoramictype" : 1,
+  "firmware" : "V0.0.0",
+  "International" : [
+    {
+      "Language" : "cn",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "分辨率",
+              "cmd" : "2002",
+              "list" : [
+                "1296P 30fps",
+                "1080P 30fps",
+                "720P 30fps",
+                "WVGA",
+                "VGA"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "循环录影",
+              "cmd" : "2003",
+              "list" : [
+                "关",
+                "3 分钟",
+                "5 分钟",
+                "10 分钟"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "延时录影",
+              "cmd" : "2019",
+              "list" : [
+                "1秒",
+                "2秒",
+                "5秒",
+                "10秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "日期标签",
+              "cmd" : "2008",
+              "list" : [
+                "关",
+                "开"
+              ],
+              "paramValue" : "0",
+              "type" : 1
+            }
+          ],
+          "title" : "视频设置"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "照片尺寸",
+              "cmd" : "1002",
+              "list" : [
+                "12M",
+                "10M",
+                "8M",
+                "5M",
+                "3M"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "定时拍照",
+              "cmd" : "1012",
+              "list" : [
+                "关",
+                "3秒",
+                "5秒",
+                "10秒",
+                "20秒"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "照片设置"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "屏保",
+              "cmd" : "3033",
+              "list" : [
+                "30秒",
+                "1 分钟",
+                "3分钟",
+                "5 分钟",
+                "关"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "语言",
+              "cmd" : "3008",
+              "list" : [
+                "English",
+                " Francais",
+                " Deutsch",
+                "Español",
+                "Italiano",
+                " Português",
+                "简体中文",
+                " 日本語",
+                "繁體中文",
+                "русский",
+                "한국어",
+                "Polski",
+                "Čeština",
+                "slovenčina",
+                "magyar",
+                "dansk",
+                "Nederlands",
+                "Türkçe",
+                "ไทย"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "IR CUT",
+              "cmd" : "3034",
+              "list" : [
+                "自动",
+                "手动"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "WIFI设置",
+              "cmd" : "3004",
+              "list" : [
+                "设置 WiFi"
+              ],
+              "paramValue" : "0",
+              "type" : 4
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "格式化",
+              "cmd" : "3010",
+              "list" : [
+                "确认格式化相机内存卡?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "默认设置",
+              "cmd" : "3011",
+              "list" : [
+                "确定恢复默认设置？"
+              ],
+              "paramValue" : "0",
+              "type" : 6
+            }
+          ],
+          "title" : "其他设置"
+        }
+      ]
+    },
+    {
+      "Language" : "en",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Video Resolution",
+              "cmd" : "2002",
+              "list" : [
+                "1296P 30fps",
+                "1080P 30fps",
+                "720P 30fps",
+                "WVGA",
+                "VGA"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Cyclic Record",
+              "cmd" : "2003",
+              "list" : [
+                "Off",
+                "3 Mins",
+                "5 Mins",
+                "10 Mins"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Videolapse",
+              "cmd" : "2019",
+              "list" : [
+                "1Seconds",
+                "2Seconds",
+                "5Seconds",
+                "10Seconds",
+                "30Seconds",
+                "60Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Date Stamping",
+              "cmd" : "2008",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 1
+            }
+          ],
+          "title" : "Video Setting"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Size",
+              "cmd" : "1002",
+              "list" : [
+                "12M",
+                "10M",
+                "8M",
+                "5M",
+                "3M"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Timed photos",
+              "cmd" : "1012",
+              "list" : [
+                "off",
+                "3Seconds",
+                "5Seconds",
+                "10Seconds",
+                "20Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Photo Setting"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Screensavers",
+              "cmd" : "3033",
+              "list" : [
+                "30Seconds",
+                "1 Mins",
+                "3Mins",
+                "5 Mins",
+                "off"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Language",
+              "cmd" : "3008",
+              "list" : [
+                "English",
+                " Francais",
+                " Deutsch",
+                "Español",
+                "Italiano",
+                " Português",
+                "简体中文",
+                " 日本語",
+                "繁體中文",
+                "русский",
+                "한국어",
+                "Polski",
+                "Čeština",
+                "slovenčina",
+                "magyar",
+                "dansk",
+                "Nederlands",
+                "Türkçe",
+                "ไทย"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "IR CUT",
+              "cmd" : "3034",
+              "list" : [
+                "Automatically",
+                "Manually"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "WiFi Setting",
+              "cmd" : "3004",
+              "list" : [
+                "Set WiFi"
+              ],
+              "paramValue" : "0",
+              "type" : 4
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Format",
+              "cmd" : "3010",
+              "list" : [
+                "Format SD Card?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Default Setting",
+              "cmd" : "3011",
+              "list" : [
+                "restore default settings?"
+              ],
+              "paramValue" : "0",
+              "type" : 6
+            }
+          ],
+          "title" : "Other Setting"
+        }
+      ]
+    },
+    {
+      "Language" : "de",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Auflösung",
+              "cmd" : "2002",
+              "list" : [
+                "1296P 30fps",
+                "1080P 30fps",
+                "720P 30fps",
+                "WVGA",
+                "VGA"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Zyklische Aufnahme",
+              "cmd" : "2003",
+              "list" : [
+                "Aus",
+                "3 Min",
+                "5 Min",
+                "10 Min"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Intervall video",
+              "cmd" : "2019",
+              "list" : [
+                "1 Sek",
+                "2 Sek",
+                "5 Sek",
+                "10 Sek",
+                "30 Sek",
+                "60 Sek"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Datumsstempel",
+              "cmd" : "2008",
+              "list" : [
+                "Aus",
+                "An"
+              ],
+              "paramValue" : "0",
+              "type" : 1
+            }
+          ],
+          "title" : "Video Einstell- ungen"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Auflösung",
+              "cmd" : "1002",
+              "list" : [
+                "12M",
+                "10M",
+                "8M",
+                "5M",
+                "3M"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Intervall bild ",
+              "cmd" : "1012",
+              "list" : [
+                "Aus",
+                "3 s",
+                "5 s",
+                "10 s",
+                "20 s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Standbild Einstell- ungen"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Schoner",
+              "cmd" : "3033",
+              "list" : [
+                "30 s",
+                "1 Min",
+                "3Min",
+                "5 Min",
+                "Aus"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Sprache",
+              "cmd" : "3008",
+              "list" : [
+                "English",
+                " Francais",
+                " Deutsch",
+                "Español",
+                "Italiano",
+                " Português",
+                "简体中文",
+                " 日本語",
+                "繁體中文",
+                "русский",
+                "한국어",
+                "Polski",
+                "Čeština",
+                "slovenčina",
+                "magyar",
+                "dansk",
+                "Nederlands",
+                "Türkçe",
+                "ไทย"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "IR CUT",
+              "cmd" : "3034",
+              "list" : [
+                "Automatisch",
+                "Manuell"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "WIFI Einstell- ungen",
+              "cmd" : "3004",
+              "list" : [
+                "WIFI Einstell- ungen"
+              ],
+              "paramValue" : "0",
+              "type" : 4
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Formatierung",
+              "cmd" : "3010",
+              "list" : [
+                "Formatierung?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Werkseinstellung",
+              "cmd" : "3011",
+              "list" : [
+                "Werkseinstellung？"
+              ],
+              "paramValue" : "0",
+              "type" : 6
+            }
+          ],
+          "title" : "Andere Einstell- ungen"
+        }
+      ]
+    },
+    {
+      "Language" : "fr",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Resolution",
+              "cmd" : "2002",
+              "list" : [
+                "1296P 30fps",
+                "1080P 30fps",
+                "720P 30fps",
+                "WVGA",
+                "VGA"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Record cyclique",
+              "cmd" : "2003",
+              "list" : [
+                "Desactive",
+                "3 Mins",
+                "5 Mins",
+                "10 Mins"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Video Lapse",
+              "cmd" : "2019",
+              "list" : [
+                "1 Sec",
+                "2 Sec",
+                "5 Sec",
+                "10 Sec",
+                "30 Sec",
+                "60 Sec"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Marque Date",
+              "cmd" : "2008",
+              "list" : [
+                "Desactive",
+                "Active"
+              ],
+              "paramValue" : "0",
+              "type" : 1
+            }
+          ],
+          "title" : "Vidéo Reglages"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Taille Im.",
+              "cmd" : "1002",
+              "list" : [
+                "12M",
+                "10M",
+                "8M",
+                "5M",
+                "3M"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Photo Lapse",
+              "cmd" : "1012",
+              "list" : [
+                "hors",
+                "3 s",
+                "5 s",
+                "10 s",
+                "20 s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "fixe Reglages"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Écran",
+              "cmd" : "3033",
+              "list" : [
+                "30 s",
+                "1 Mins",
+                "3Mins",
+                "5 Mins",
+                "hors"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Langue",
+              "cmd" : "3008",
+              "list" : [
+                "English",
+                " Francais",
+                " Deutsch",
+                "Español",
+                "Italiano",
+                " Português",
+                "简体中文",
+                " 日本語",
+                "繁體中文",
+                "русский",
+                "한국어",
+                "Polski",
+                "Čeština",
+                "slovenčina",
+                "magyar",
+                "dansk",
+                "Nederlands",
+                "Türkçe",
+                "ไทย"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "IR CUT",
+              "cmd" : "3034",
+              "list" : [
+                "Automatiquement",
+                " Manuellement"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "WIFI Reglages",
+              "cmd" : "3004",
+              "list" : [
+                "WIFI Reglages"
+              ],
+              "paramValue" : "0",
+              "type" : 4
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Formatierung",
+              "cmd" : "3010",
+              "list" : [
+                "Formatierung?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Regl. Defaut",
+              "cmd" : "3011",
+              "list" : [
+                "Regl. Défaut?"
+              ],
+              "paramValue" : "0",
+              "type" : 6
+            }
+          ],
+          "title" : "Autre Reglages"
+        }
+      ]
+    },
+    {
+      "Language" : "cs",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Rozlišení video",
+              "cmd" : "2002",
+              "list" : [
+                "1296P 30fps",
+                "1080P 30fps",
+                "720P 30fps",
+                "WVGA",
+                "VGA"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Smyčka video",
+              "cmd" : "2003",
+              "list" : [
+                "Vyp",
+                "3 Minut",
+                "5 Minut",
+                "10 Minut"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "interval nahrávání",
+              "cmd" : "2019",
+              "list" : [
+                "1 sekund",
+                "2 sekund",
+                "5 sekund",
+                "10 sekund",
+                "30 sekund",
+                "60 sekund"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Čas. Label",
+              "cmd" : "2008",
+              "list" : [
+                "Vyp",
+                "Zap"
+              ],
+              "paramValue" : "0",
+              "type" : 1
+            }
+          ],
+          "title" : "Video Nastavení"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Velikost fotografie",
+              "cmd" : "1002",
+              "list" : [
+                "12M",
+                "10M",
+                "8M",
+                "5M",
+                "3M"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Interval fotka",
+              "cmd" : "1012",
+              "list" : [
+                "Vyp",
+                "3 s",
+                "5 s",
+                "10 s",
+                "20 s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Pořídit snimek Nastavení"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Obrazovky",
+              "cmd" : "3033",
+              "list" : [
+                "30 s",
+                "1 Mins",
+                "3Mins",
+                "5 Mins",
+                "Vyp"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Jazyk",
+              "cmd" : "3008",
+              "list" : [
+                "English",
+                " Francais",
+                " Deutsch",
+                "Español",
+                "Italiano",
+                " Português",
+                "简体中文",
+                " 日本語",
+                "繁體中文",
+                "русский",
+                "한국어",
+                "Polski",
+                "Čeština",
+                "slovenčina",
+                "magyar",
+                "dansk",
+                "Nederlands",
+                "Türkçe",
+                "ไทย"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "IR CUT",
+              "cmd" : "3034",
+              "list" : [
+                "Automaticky",
+                "Ručně"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "WIFI Nastavení",
+              "cmd" : "3004",
+              "list" : [
+                "WIFI Nastavení"
+              ],
+              "paramValue" : "0",
+              "type" : 4
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Formátovat",
+              "cmd" : "3010",
+              "list" : [
+                "Formátovat?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Tovární nastavení ",
+              "cmd" : "3011",
+              "list" : [
+                "Tovární nastavení?"
+              ],
+              "paramValue" : "0",
+              "type" : 6
+            }
+          ],
+          "title" : "Ostatní  Nastavení"
+        }
+      ]
+    },
+    {
+      "Language" : "th",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "ความละเอียด",
+              "cmd" : "2002",
+              "list" : [
+                "1296P 30fps",
+                "1080P 30fps",
+                "720P 30fps",
+                "WVGA",
+                "VGA"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "บันทึกวน",
+              "cmd" : "2003",
+              "list" : [
+                "ปิด",
+                "3 นาที",
+                "5 นาที",
+                "10 นาที"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "ไทม์แลปส์ ",
+              "cmd" : "2019",
+              "list" : [
+                "1 วินาที",
+                "2 วินาที",
+                "5 วินาที",
+                "10 วินาที",
+                "30 วินาที",
+                "60 วินาที"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "ฉลากวันที่",
+              "cmd" : "2008",
+              "list" : [
+                "ปิด",
+                "เปิด"
+              ],
+              "paramValue" : "0",
+              "type" : 1
+            }
+          ],
+          "title" : "วิดีโอตั้งค่า"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "ขนาดของภาพ",
+              "cmd" : "1002",
+              "list" : [
+                "12M",
+                "10M",
+                "8M",
+                "5M",
+                "3M"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "ภาพถ่ายช่วงเวลา",
+              "cmd" : "1012",
+              "list" : [
+                "ปิด",
+                "3วินาที",
+                "5วินาที",
+                "10วินาที",
+                "20วินาที"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "ภาพนิ่งตั้งค่า"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "สกรีนเซฟเวอร์",
+              "cmd" : "3033",
+              "list" : [
+                "30วินาที",
+                "1 นาที",
+                "3 นาที",
+                "5 นาที",
+                "ปิด"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "ภาษา",
+              "cmd" : "3008",
+              "list" : [
+                "English",
+                " Francais",
+                " Deutsch",
+                "Español",
+                "Italiano",
+                " Português",
+                "简体中文",
+                " 日本語",
+                "繁體中文",
+                "русский",
+                "한국어",
+                "Polski",
+                "Čeština",
+                "slovenčina",
+                "magyar",
+                "dansk",
+                "Nederlands",
+                "Türkçe",
+                "ไทย"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "IR CUT",
+              "cmd" : "3034",
+              "list" : [
+                "โดยอัตโนมัติ",
+                "ด้วยตนเอง"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "ตั้งค่า WiFi",
+              "cmd" : "3004",
+              "list" : [
+                "ตั้งค่า WiFi"
+              ],
+              "paramValue" : "0",
+              "type" : 4
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "จัดรูปแบบ",
+              "cmd" : "3010",
+              "list" : [
+                "กำหนดรูปแบบการ์ด SD"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "ตั้งค่าเริ่มต้น",
+              "cmd" : "3011",
+              "list" : [
+                "กำหนดค่าเริ่มต้นหรือไม่"
+              ],
+              "paramValue" : "0",
+              "type" : 6
+            }
+          ],
+          "title" : "อื่นๆตั้งค่า"
+        }
+      ]
+    },
+    {
+      "Language" : "pl",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Rozdzielczość video",
+              "cmd" : "2002",
+              "list" : [
+                "1296P 30fps",
+                "1080P 30fps",
+                "720P 30fps",
+                "WVGA",
+                "VGA"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Nagrywanie ciągłe",
+              "cmd" : "2003",
+              "list" : [
+                "wyłączony",
+                "3 minut",
+                "5 minut",
+                "10 minut"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Interwał nagrywania",
+              "cmd" : "2019",
+              "list" : [
+                "1 sekund",
+                "2 sekund",
+                "5 sekund",
+                "10 sekund",
+                "30 sekund",
+                "60 sekund"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Datownik - video",
+              "cmd" : "2008",
+              "list" : [
+                "wyłączony",
+                "włączony"
+              ],
+              "paramValue" : "0",
+              "type" : 1
+            }
+          ],
+          "title" : "Video Ustawienia"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Rozmiar zdjęcia",
+              "cmd" : "1002",
+              "list" : [
+                "12M",
+                "10M",
+                "8M",
+                "5M",
+                "3M"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Zdjęcie interwałowe",
+              "cmd" : "1012",
+              "list" : [
+                "off",
+                "3 s",
+                "5 s",
+                "10 s",
+                "20 s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Klatka Ustawienia"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Wygaszacze",
+              "cmd" : "3033",
+              "list" : [
+                "30 s",
+                "1 Minut",
+                "3 Minut",
+                "5 Minut",
+                "off"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Języka",
+              "cmd" : "3008",
+              "list" : [
+                "English",
+                " Francais",
+                " Deutsch",
+                "Español",
+                "Italiano",
+                " Português",
+                "简体中文",
+                " 日本語",
+                "繁體中文",
+                "русский",
+                "한국어",
+                "Polski",
+                "Čeština",
+                "slovenčina",
+                "magyar",
+                "dansk",
+                "Nederlands",
+                "Türkçe",
+                "ไทย"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "IR CUT",
+              "cmd" : "3034",
+              "list" : [
+                "Automatycznie",
+                " Ręcznie"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Konfiguracja WiFi",
+              "cmd" : "3004",
+              "list" : [
+                "Konfiguracja WiFi\r\n"
+              ],
+              "paramValue" : "0",
+              "type" : 4
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Formatowania",
+              "cmd" : "3010",
+              "list" : [
+                "Formatowania SD Card?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Ustawienia domyślne",
+              "cmd" : "3011",
+              "list" : [
+                "Określić domyślne ustawienia odzyskiwania?\r\n"
+              ],
+              "paramValue" : "0",
+              "type" : 6
+            }
+          ],
+          "title" : "Inne Ustawienia"
+        }
+      ]
+    }
+  ]
+}

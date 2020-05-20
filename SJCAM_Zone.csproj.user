@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>E:\Документы\Visual Studio 2017\Projects\SJCAM_Zone__0\SJCAM_Zone\logo.png</Source>
+    <SmallTileSource>E:\Документы\Visual Studio 2017\Projects\SJCAM_Zone__0\SJCAM_Zone\logo.png</SmallTileSource>
+    <MediumTileSource>E:\Документы\Visual Studio 2017\Projects\SJCAM_Zone__0\SJCAM_Zone\logo.png</MediumTileSource>
+    <WideTileSource>E:\Документы\Visual Studio 2017\Projects\SJCAM_Zone__0\SJCAM_Zone\logo.png</WideTileSource>
+    <LargeTileSource>E:\Документы\Visual Studio 2017\Projects\SJCAM_Zone__0\SJCAM_Zone\logo.png</LargeTileSource>
+    <AppIconSource>E:\Документы\Visual Studio 2017\Projects\SJCAM_Zone__0\SJCAM_Zone\logo.png</AppIconSource>
+    <SplashScreenSource>E:\Документы\Visual Studio 2017\Projects\SJCAM_Zone__0\SJCAM_Zone\logo.png</SplashScreenSource>
+    <PackageLogoSource>E:\Документы\Visual Studio 2017\Projects\SJCAM_Zone__0\SJCAM_Zone\logo.png</PackageLogoSource>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>

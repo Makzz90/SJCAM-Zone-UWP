@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B5014C7A-626B-41AD-A1BB-55614428684B}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SJCAM_Zone</RootNamespace>
+    <AssemblyName>SJCAM Zone UWP</AssemblyName>
+    <DefaultLanguage>en</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <PackageCertificateKeyFile>SJCAM_Zone_StoreKey.pfx</PackageCertificateKeyFile>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>arm</AppxBundlePlatforms>
+    <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
+    <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
+    <PackageCertificateThumbprint>CFEB0F2A784D515D4872A844815E2AEC2D0C9B13</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AnimationUtil.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CameraPage.xaml.cs">
+      <DependentUpon>CameraPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomFrame.cs" />
+    <Compile Include="DataModel\Data_Config.cs" />
+    <Compile Include="DataModel\Data_Items.cs" />
+    <Compile Include="DataModel\Data_New.cs" />
+    <Compile Include="DataModel\Data_State.cs" />
+    <Compile Include="HttpHelper.cs" />
+    <Compile Include="Library\ConfigItemTemplateSelector.cs" />
+    <Compile Include="Library\Execute.cs" />
+    <Compile Include="PopUpService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestsDispatcher.cs" />
+    <Compile Include="ResponsStructures.cs" />
+    <Compile Include="UC\CameraSettingsUC.xaml.cs">
+      <DependentUpon>CameraSettingsUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ConnectFaqUC.xaml.cs">
+      <DependentUpon>ConnectFaqUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\FaqUC.xaml.cs">
+      <DependentUpon>FaqUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\FileListUC.xaml.cs">
+      <DependentUpon>FileListUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomePage.xaml.cs">
+      <DependentUpon>WelcomePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="Assets\Cparams\3.0.00%240.0.json" />
+    <Content Include="Assets\Cparams\655-M10WIFI%240.0.json" />
+    <Content Include="Assets\Cparams\655-SJ4000WIFI%240.0.json" />
+    <Content Include="Assets\Cparams\655-SJ4000WIFI_SQ%240.0.json" />
+    <Content Include="Assets\Cparams\655-SJ4000WIFI_SQ%241.8.json" />
+    <Content Include="Assets\Cparams\655-SJ5000WIFI%240.0.json" />
+    <Content Include="Assets\Cparams\658-A10%240.0.0.json" />
+    <Content Include="Assets\Cparams\658-M20Air%240.0.json" />
+    <Content Include="Assets\Cparams\658-SJ8AIR%240.0.0.json" />
+    <Content Include="Assets\Cparams\660%240.0.json" />
+    <Content Include="Assets\Cparams\660-M10+%240.0.json" />
+    <Content Include="Assets\Cparams\660-M20%240.0.0.json" />
+    <Content Include="Assets\Cparams\660-SJ360%240.0.json" />
+    <Content Include="Assets\Cparams\660-SJ4000+%240.0.json" />
+    <Content Include="Assets\Cparams\660-SJ5000X%240.0.0-S.json" />
+    <Content Include="Assets\Cparams\660-SJ5000X%241.5.0-S.json" />
+    <Content Include="Assets\Cparams\660-SJ5000X%241.5.3-S.json" />
+    <Content Include="Assets\Cparams\660-SJ5000X%241.5.4-S.json" />
+    <Content Include="Assets\Cparams\660-SJ6%240.0.0.json" />
+    <Content Include="Assets\Cparams\660-SJ6%241.4.3.json" />
+    <Content Include="Assets\Cparams\660-SJ6%241.4.5.json" />
+    <Content Include="Assets\Cparams\660-SJ6_A%240.0.0.json" />
+    <Content Include="Assets\Cparams\660-SJ6_A%241.4.3.json" />
+    <Content Include="Assets\Cparams\660-SJ6_A%241.4.5.json" />
+    <Content Include="Assets\Cparams\660-SJ6_B%240.0.0.json" />
+    <Content Include="Assets\Cparams\660-SJ6_C%240.0.0.json" />
+    <Content Include="Assets\Cparams\660-SJ6_SHX%241.4.5.json" />
+    <Content Include="Assets\Cparams\683-SJ8+%241.0.3.json" />
+    <Content Include="Assets\Cparams\SJCAM655%240.0.json" />
+    <Content Include="Assets\Cparams\SJCAMSJ7Japan%240.00J.json" />
+    <Content Include="Assets\Cparams\SJCAMSJ7Korean%240.00K.json" />
+    <Content Include="Assets\Cparams\SJCAMSJ7Poland%240.00P.json" />
+    <Content Include="Assets\Cparams\SJCAMSJ7Spain%240.00S.json" />
+    <Content Include="Assets\Cparams\SJCAMSJ7STAR%240.00.json" />
+    <Content Include="Assets\Cparams\SJCAMSJ7Turkey%240.00T.json" />
+    <Content Include="Assets\Cparams\SJCAMSJ8PRO%241.2.0.json" />
+    <Content Include="Assets\Cparams\SJCAMSJCAMSJ7STAR%240.00.json" />
+    <Content Include="Assets\Cparams\SJCAMSJCAMSJ7STAR%241.13.json" />
+    <Content Include="Assets\Cparams\SJCAMSJCAMSJ7STAR%241.18.json" />
+    <Content Include="Assets\Cparams\SJCAMSJCAMSJ7STAR%241.20.json" />
+    <Content Include="Assets\Cparams\SJCAMSJCAMSJ8STAR%240.0.0.json" />
+    <Content Include="Assets\Cparams\V1.5-SJ5000WIFI%240.0.json" />
+    <None Include="SJCAM_Zone_StoreKey.pfx" />
+    <None Include="SJCAM_Zone_TemporaryKey.pfx" />
+    <PRIResource Include="Strings\ru\Resources.resw" />
+    <PRIResource Include="Strings\en\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\IconsConnectFaq\a10_01.png" />
+    <Content Include="Assets\IconsConnectFaq\a10_02.png" />
+    <Content Include="Assets\IconsConnectFaq\conn_wifi.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_360.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_360_1.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_360_2.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_5000_1.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_5000_2.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_5000_3.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_5000_4.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_a10s.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_m20.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_sj4000.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_sj5000.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_sj6000.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_sj7000.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_sj8air.png" />
+    <Content Include="Assets\IconsConnectFaq\icon_sj8pro.png" />
+    <Content Include="Assets\IconsConnectFaq\m20_1.png" />
+    <Content Include="Assets\IconsConnectFaq\m20_2.png" />
+    <Content Include="Assets\IconsConnectFaq\m20_3.png" />
+    <Content Include="Assets\IconsConnectFaq\plus.png" />
+    <Content Include="Assets\IconsConnectFaq\sj8_1.png" />
+    <Content Include="Assets\IconsConnectFaq\sj_6000_1.png" />
+    <Content Include="Assets\IconsConnectFaq\sj_6000_2.png" />
+    <Content Include="Assets\IconsConnectFaq\sj_7000_1.png" />
+    <Content Include="Assets\IconsConnectFaq\sj_7000_2.png" />
+    <Content Include="Assets\Icons\audio_delete.png" />
+    <Content Include="Assets\Icons\icon_camera_help.png" />
+    <Content Include="Assets\Icons\ic_camera_blue_a.png" />
+    <Content Include="Assets\Icons\ic_camera_blue_c.png" />
+    <Content Include="Assets\Icons\ic_cvd_video.png" />
+    <Content Include="Assets\Icons\ic_find_blue_a.png" />
+    <Content Include="Assets\Icons\ic_find_c.png" />
+    <Content Include="Assets\Icons\ic_firmware_download.png" />
+    <Content Include="Assets\Icons\i_down_b.png" />
+    <Content Include="Assets\Icons\select.png" />
+    <Content Include="Assets\Img\LargeTile.scale-100.png" />
+    <Content Include="Assets\Img\LargeTile.scale-125.png" />
+    <Content Include="Assets\Img\LargeTile.scale-150.png" />
+    <Content Include="Assets\Img\LargeTile.scale-200.png" />
+    <Content Include="Assets\Img\LargeTile.scale-400.png" />
+    <Content Include="Assets\Img\SmallTile.scale-100.png" />
+    <Content Include="Assets\Img\SmallTile.scale-125.png" />
+    <Content Include="Assets\Img\SmallTile.scale-150.png" />
+    <Content Include="Assets\Img\SmallTile.scale-200.png" />
+    <Content Include="Assets\Img\SmallTile.scale-400.png" />
+    <Content Include="Assets\Img\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Img\SplashScreen.scale-125.png" />
+    <Content Include="Assets\Img\SplashScreen.scale-150.png" />
+    <Content Include="Assets\Img\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Img\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Img\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Img\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Img\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Img\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Img\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Img\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Img\Square44x44Logo.altform-unplated_targetsize-24.png" />
+    <Content Include="Assets\Img\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Img\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Img\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Img\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Img\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Img\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Img\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Img\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Img\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Img\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Img\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Img\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Img\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\Img\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Img\StoreLogo.scale-125.png" />
+    <Content Include="Assets\Img\StoreLogo.scale-150.png" />
+    <Content Include="Assets\Img\StoreLogo.scale-200.png" />
+    <Content Include="Assets\Img\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Img\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Img\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Img\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Img\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Img\Wide310x150Logo.scale-400.png" />
+    <Content Include="Assets\Img_camera\close.png" />
+    <Content Include="Assets\Img_camera\ic_back_arrow_mediaedit.png" />
+    <Content Include="Assets\Img_camera\ic_battery_0.png" />
+    <Content Include="Assets\Img_camera\ic_battery_1.png" />
+    <Content Include="Assets\Img_camera\ic_battery_2.png" />
+    <Content Include="Assets\Img_camera\ic_battery_3.png" />
+    <Content Include="Assets\Img_camera\ic_battery_4.png" />
+    <Content Include="Assets\Img_camera\ic_battery_5.png" />
+    <Content Include="Assets\Img_camera\ic_camera_capture.png" />
+    <Content Include="Assets\Img_camera\ic_camera_capture_select.png" />
+    <Content Include="Assets\Img_camera\ic_camera_capture_timelapse.png" />
+    <Content Include="Assets\Img_camera\ic_camera_capture_timelapse_select.png" />
+    <Content Include="Assets\Img_camera\ic_camera_medialib.png" />
+    <Content Include="Assets\Img_camera\ic_camera_menu.png" />
+    <Content Include="Assets\Img_camera\ic_camera_record.png" />
+    <Content Include="Assets\Img_camera\ic_camera_record_select.png" />
+    <Content Include="Assets\Img_camera\ic_camera_record_timelapse.png" />
+    <Content Include="Assets\Img_camera\ic_camera_record_timelapse_select.png" />
+    <Content Include="Assets\Img_camera\ic_record_pause.png" />
+    <Content Include="Assets\Img_camera\ic_record_start.png" />
+    <Content Include="Assets\Img_faq\ic_faq_m10.png" />
+    <Content Include="Assets\Img_faq\ic_faq_m20.png" />
+    <Content Include="Assets\Img_faq\ic_faq_sj360.jpg" />
+    <Content Include="Assets\Img_faq\ic_faq_sj4000.png" />
+    <Content Include="Assets\Img_faq\ic_faq_sj5000.png" />
+    <Content Include="Assets\Img_faq\ic_faq_sj6.png" />
+    <Content Include="Assets\Img_faq\ic_faq_sj7.png" />
+    <Content Include="Assets\Img_faq\ic_faq_sj8pro.png" />
+    <Content Include="Assets\Img_faq\ic_faq_title_bg.png" />
+    <Content Include="Assets\movierecord.wav" />
+    <Content Include="Assets\photoshutter.wav" />
+    <Content Include="Assets\Png\icon_sjcam.png" />
+    <Content Include="Assets\Png\ic_default_avatar.png" />
+    <Content Include="Assets\Png\ic_default_pic.png" />
+    <Content Include="Assets\Png\ic_news_left_normal.png" />
+    <Content Include="Assets\Png\ic_s_menu_faq.png" />
+    <Content Include="Assets\Png\ic_s_menu_feedback.png" />
+    <Content Include="Assets\Png\ic_s_menu_setting.png" />
+    <Content Include="Assets\Png\ic_s_menu_shop.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.1.7</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="VLC.MediaElement">
+      <Version>3.1.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CameraPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UC\CameraSettingsUC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UC\ConnectFaqUC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UC\FaqUC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UC\FileListUC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WelcomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="WindowsMobile, Version=10.0.10586.0">
+      <Name>Windows Mobile Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

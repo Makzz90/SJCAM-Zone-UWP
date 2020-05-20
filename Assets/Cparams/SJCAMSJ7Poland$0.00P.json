@@ -1,0 +1,4361 @@
+{
+  "launchImage" : [
+    {
+      "launchImage_6s" : "",
+      "launchImage_6p" : "",
+      "launchImage_5s" : "",
+      "launchImage_4s" : ""
+    }
+  ],
+  "modify_on" : "",
+  "is_enabled" : true,
+  "devicename" : "SJ7Poland",
+  "version" : "SJCAMSJ7Poland",
+  "support" : "http:\/\/support.sjcamhd.com\/support\/home",
+  "company" : "SJCAM",
+  "logo" : null,
+  "download" : "",
+  "chip" : 3,
+  "noticeList" : [
+
+  ],
+  "panoramictype" : 1,
+  "firmware" : "0.00P",
+  "International" : [
+    {
+      "Language" : "cn",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "视频分辨率",
+              "cmd" : "video_resolution",
+              "list" : [
+                "4K 30fps 16:9",
+                "4K 25fps SV",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps SV",
+                "2.7K 30fps 16:9",
+                "2.5K 60fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 60fps 4:3",
+                "1440P 30fps 4:3",
+                "1080P 120fps 16:9",
+                "1080P 60fps 16:9",
+                "1080P 30fps 16:9",
+                "1080P 60fps SV",
+                "1080P 30fps SV",
+                "960P 120fps 4:3",
+                "960P 60fps 4:3",
+                "960P 30fps 4:3",
+                "720P 240fps 16:9",
+                "720P 120fps 16:9",
+                "720P 60fps 16:9",
+                "720P 30fps 16:9",
+                "720P 120fps SV",
+                "720P 30fps SV"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "视频质量",
+              "cmd" : "video_quality",
+              "list" : [
+                "超精细",
+                "精细",
+                "正常"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "视频水印",
+              "cmd" : "video_stamp",
+              "list" : [
+                "关",
+                "日期",
+                "时间",
+                "日期\/时间"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "间隔录影",
+              "cmd" : "video_timelapse",
+              "list" : [
+                "1秒",
+                "2秒",
+                "5秒",
+                "10秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "循环录影",
+              "cmd" : "loop_record",
+              "list" : [
+                "关",
+                "1分钟",
+                "2分钟",
+                "3分钟",
+                "5分钟"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "锐利度",
+              "cmd" : "video_sharpness",
+              "list" : [
+                "柔和",
+                "正常",
+                "锐利"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "白平衡",
+              "cmd" : "video_wb",
+              "list" : [
+                "自动",
+                "白炽灯",
+                "D4000",
+                "D5000",
+                "日光灯",
+                "多云",
+                "D9000",
+                "D10000",
+                "闪光灯",
+                "荧光灯",
+                "水下",
+                "户外"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "曝光补偿值",
+              "cmd" : "video_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0.0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "ISO",
+              "cmd" : "video_iso",
+              "list" : [
+                "自动",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "测光设定",
+              "cmd" : "video_metering",
+              "list" : [
+                "多点",
+                "中心",
+                "单点"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 3,
+              "orderNo" : 4,
+              "title" : "间隔录影分辨率",
+              "cmd" : "tl_video_res",
+              "list" : [
+                "4K 30fps 16:9",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 30fps 4:3",
+                "1080P 30fps 16:9",
+                "960P 30fps 4:3",
+                "720P 30fps 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "视频设置"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "照片尺寸",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M (4608x3456 4:3)",
+                "14M (4254x3264 4:3)",
+                "12M (4000x3000 4:3)",
+                "8.3M (3840x2160 16:9)",
+                "5M (2560x1920 4:3)",
+                "3M (2048x1536 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "照片水印",
+              "cmd" : "photo_stamp",
+              "list" : [
+                "关",
+                "日期",
+                "时间",
+                "日期\/时间"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "定时自拍",
+              "cmd" : "photo_selftimer",
+              "list" : [
+                "2秒",
+                "3秒",
+                "5秒",
+                "10秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "连拍速度",
+              "cmd" : "photo_burstrate",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s"
+              ],
+              "paramValue" : "关",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "间隔拍照",
+              "cmd" : "photo_autoshoot",
+              "list" : [
+                "3秒",
+                "5秒",
+                "10秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : "3秒",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "锐利度",
+              "cmd" : "photo_sharpness",
+              "list" : [
+                "柔和",
+                "正常",
+                "锐利"
+              ],
+              "paramValue" : "正常",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "白平衡",
+              "cmd" : "photo_wb",
+              "list" : [
+                "自动",
+                "白炽灯",
+                "D4000",
+                "D5000",
+                "日光灯",
+                "多云",
+                "D9000",
+                "D10000",
+                "闪光灯",
+                "荧光灯",
+                "水下",
+                "户外"
+              ],
+              "paramValue" : "自动",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "曝光补偿值",
+              "cmd" : "photo_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0.0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "ISO",
+              "cmd" : "photo_iso",
+              "list" : [
+                "自动",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "自动",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "测光设定",
+              "cmd" : "photo_metering",
+              "list" : [
+                "多点",
+                "中心",
+                "单点"
+              ],
+              "paramValue" : "多点",
+              "type" : 0
+            }
+          ],
+          "title" : "照片设置"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "快速记录",
+              "cmd" : "quick_capture",
+              "list" : [
+                "关",
+                "开"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "陀螺仪防抖",
+              "cmd" : "eis",
+              "list" : [
+                "关闭",
+                "开启"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "移动侦测",
+              "cmd" : "detection",
+              "list" : [
+                "关",
+                "低",
+                "中",
+                "高"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "延时关机",
+              "cmd" : "delay_off",
+              "list" : [
+                "关",
+                "5秒",
+                "10秒",
+                "20秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "车载模式",
+              "cmd" : "auto_dvr",
+              "list" : [
+                "关",
+                "开"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "TV模式",
+              "cmd" : "tv_mode",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "光源频率",
+              "cmd" : "light_freq",
+              "list" : [
+                "自动",
+                "50HZ",
+                "60HZ"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "自动关机",
+              "cmd" : "auto_shutdown",
+              "list" : [
+                "关",
+                "3 分钟",
+                "5 分钟",
+                "10 分钟"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 11,
+              "title" : "自动屏保",
+              "cmd" : "screen_off",
+              "list" : [
+                "关",
+                "30 秒",
+                "1分钟",
+                "3分钟",
+                "5分钟"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 12,
+              "title" : "状态指示灯",
+              "cmd" : "status_led",
+              "list" : [
+                "关",
+                "1",
+                "2",
+                "3"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 13,
+              "title" : "提示音",
+              "cmd" : "beep",
+              "list" : [
+                "关",
+                "开"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 14,
+              "title" : "录音音量",
+              "cmd" : "mic_volume",
+              "list" : [
+                "关",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 15,
+              "title" : "日期格式",
+              "cmd" : "date_format",
+              "list" : [
+                "Y\/M\/D",
+                "D\/M\/Y",
+                "M\/D\/Y"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 16,
+              "title" : "语言选择",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "Francais",
+                "日本語",
+                "português",
+                "Suomi",
+                "عربية ",
+                "Polski",
+                "Indonesia",
+                "Nederlands",
+                "Svensk",
+                "Čeština",
+                "Românesc",
+                "slovenského jazyk",
+                "Hungarian"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "格式化",
+              "cmd" : "format",
+              "list" : [
+                "确定格式化设备SD卡？"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 17,
+              "title" : "默认设置",
+              "cmd" : "default_setting",
+              "list" : [
+                "恢复默认设置?"
+              ],
+              "paramValue" : null,
+              "type" : 6
+            }
+          ],
+          "title" : "其他设置"
+        }
+      ]
+    },
+    {
+      "Language" : "en",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Video Resolution",
+              "cmd" : "video_resolution",
+              "list" : [
+                "4K 30fps 16:9",
+                "4K 25fps SV",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps SV",
+                "2.7K 30fps 16:9",
+                "2.5K 60fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 60fps 4:3",
+                "1440P 30fps 4:3",
+                "1080P 120fps 16:9",
+                "1080P 60fps 16:9",
+                "1080P 30fps 16:9",
+                "1080P 60fps SV",
+                "1080P 30fps SV",
+                "960P 120fps 4:3",
+                "960P 60fps 4:3",
+                "960P 30fps 4:3",
+                "720P 240fps 16:9",
+                "720P 120fps 16:9",
+                "720P 60fps 16:9",
+                "720P 30fps 16:9",
+                "720P 120fps SV",
+                "720P 30fps SV"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Video Quality",
+              "cmd" : "video_quality",
+              "list" : [
+                "S.Fine",
+                "Fine",
+                "Normal"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Video Stamp",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Time",
+                "date\/time"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Timelapse Video",
+              "cmd" : "video_timelapse",
+              "list" : [
+                "1 Second",
+                "2 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Loop Record",
+              "cmd" : "loop_record",
+              "list" : [
+                "Off",
+                "1 Min",
+                "2 Min",
+                "3 Min",
+                "5 Min"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 3,
+              "orderNo" : 4,
+              "title" : "Timelapse Video Resolution",
+              "cmd" : "tl_video_res",
+              "list" : [
+                "4K 30fps 16:9",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 30fps 4:3",
+                "1080P 30fps 16:9",
+                "960P 30fps 4:3",
+                "720P 30fps 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Sharpness",
+              "cmd" : "video_sharpness",
+              "list" : [
+                "soft",
+                "normal",
+                "strong"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "AWB",
+              "cmd" : "video_wb",
+              "list" : [
+                "auto",
+                "incandescent",
+                "D4000",
+                "D5000",
+                "sunny",
+                "clouldy",
+                "D9000",
+                "D10000",
+                "flash",
+                "fluorescent",
+                "water",
+                "outdoor"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "EV Value",
+              "cmd" : "video_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "ISO",
+              "cmd" : "video_iso",
+              "list" : [
+                "auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Metering",
+              "cmd" : "video_metering",
+              "list" : [
+                "Multi",
+                "Center",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Setting"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Size",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M (4608x3456 4:3)",
+                "14M (4254x3264 4:3)",
+                "12M (4000x3000 4:3)",
+                "8.3M (3840x2160 16:9)",
+                "5M (2560x1920 4:3)",
+                "3M (2048x1536 4:3)"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Photo Stamp",
+              "cmd" : "photo_stamp",
+              "list" : [
+                "Off",
+                "date",
+                "time",
+                "date\/time"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Self Timer",
+              "cmd" : "photo_selftimer",
+              "list" : [
+                "2 Seconds",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Photo Burst",
+              "cmd" : "photo_burstrate",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Timelapse Photo",
+              "cmd" : "photo_autoshoot",
+              "list" : [
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Sharpness",
+              "cmd" : "photo_sharpness",
+              "list" : [
+                "soft",
+                "normal",
+                "strong"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "AWB",
+              "cmd" : "photo_wb",
+              "list" : [
+                "auto",
+                "incandescent",
+                "D4000",
+                "D5000",
+                "sunny",
+                "clouldy",
+                "D9000",
+                "D10000",
+                "flash",
+                "fluorescent",
+                "water",
+                "outdoor"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "EV Value",
+              "cmd" : "photo_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "ISO",
+              "cmd" : "photo_iso",
+              "list" : [
+                "auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Metering",
+              "cmd" : "photo_metering",
+              "list" : [
+                "Multi",
+                "Center",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Photo Setting"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Detection",
+              "cmd" : "detection",
+              "list" : [
+                "Off",
+                "Low",
+                "Medium",
+                "High"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Gyro Sensor",
+              "cmd" : "eis",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Quick Capture",
+              "cmd" : "quick_capture",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Delay Off",
+              "cmd" : "delay_off",
+              "list" : [
+                "Off",
+                "5 Seconds",
+                "10 Seconds",
+                "20 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Auto DVR",
+              "cmd" : "auto_dvr",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "TV Mode",
+              "cmd" : "tv_mode",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Light Freq",
+              "cmd" : "light_freq",
+              "list" : [
+                "Auto",
+                "50HZ",
+                "60HZ"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "OSD",
+              "cmd" : "osd",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Auto Shutdown",
+              "cmd" : "auto_shutdown",
+              "list" : [
+                "Off",
+                "3 Min",
+                "5 Min",
+                "10 Min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 11,
+              "title" : "Screen Off",
+              "cmd" : "screen_off",
+              "list" : [
+                "Off",
+                "30 Seconds",
+                "1 Min",
+                "3 Min",
+                "5 Min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 12,
+              "title" : "Status LED",
+              "cmd" : "status_led",
+              "list" : [
+                "Off",
+                "1",
+                "2",
+                "3"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 13,
+              "title" : "Beep",
+              "cmd" : "beep",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 14,
+              "title" : "Mic Volume",
+              "cmd" : "mic_volume",
+              "list" : [
+                "Off",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 15,
+              "title" : "Date Format",
+              "cmd" : "date_format",
+              "list" : [
+                "Y\/M\/D",
+                "D\/M\/Y",
+                "M\/D\/Y"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 16,
+              "title" : "Language",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "Francais",
+                "日本語",
+                "português",
+                "Suomi",
+                "عربية ",
+                "Polski",
+                "Indonesia",
+                "Nederlands",
+                "Svensk",
+                "Čeština",
+                "Românesc",
+                "slovenského jazyk",
+                "Hungarian"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Format",
+              "cmd" : "format",
+              "list" : [
+                "Format SD card?"
+              ],
+              "paramValue" : null,
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 17,
+              "title" : "Default Setting",
+              "cmd" : "default_setting",
+              "list" : [
+                "Default Setting?"
+              ],
+              "paramValue" : "0",
+              "type" : 6
+            }
+          ],
+          "title" : "Other Setting"
+        }
+      ]
+    },
+    {
+      "Language" : "de",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Videoauflösungen",
+              "cmd" : "video_resolution",
+              "list" : [
+                "4K 30fps 16:9",
+                "4K 25fps SV",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps SV",
+                "2.7K 30fps 16:9",
+                "2.5K 60fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 60fps 4:3",
+                "1440P 30fps 4:3",
+                "1080P 120fps 16:9",
+                "1080P 60fps 16:9",
+                "1080P 30fps 16:9",
+                "1080P 60fps SV",
+                "1080P 30fps SV",
+                "960P 120fps 4:3",
+                "960P 60fps 4:3",
+                "960P 30fps 4:3",
+                "720P 240fps 16:9",
+                "720P 120fps 16:9",
+                "720P 60fps 16:9",
+                "720P 30fps 16:9",
+                "720P 120fps SV",
+                "720P 30fps SV"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Videoqualität",
+              "cmd" : "video_quality",
+              "list" : [
+                "S-Fein",
+                "Fein",
+                "Normal"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Video Wasserzeichen",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Aus",
+                "Datum",
+                "Zeit",
+                "Datum _ Zeit"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Zeitraffer",
+              "cmd" : "video_timelapse",
+              "list" : [
+                "1 Sekunden",
+                "2 Sekunden",
+                "5 Sekunden",
+                "10 Sekunden",
+                "30 Sekunden",
+                "60 Sekunden"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Loop-Aufnahme",
+              "cmd" : "loop_record",
+              "list" : [
+                "Aus",
+                "1 Minuten",
+                "2 Minuten",
+                "3 Minuten",
+                "5 Minuten"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 3,
+              "orderNo" : 4,
+              "title" : "Zeitraffer Auflösung",
+              "cmd" : "tl_video_res",
+              "list" : [
+                "4K 30fps 16:9",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 30fps 4:3",
+                "1080P 30fps 16:9",
+                "960P 30fps 4:3",
+                "720P 30fps 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Schärfe",
+              "cmd" : "video_sharpness",
+              "list" : [
+                "Weich",
+                "Normal",
+                "Stark"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "AWB",
+              "cmd" : "video_wb",
+              "list" : [
+                "Auto",
+                "Glühlampe",
+                "D4000",
+                "D5000",
+                "Tageslicht",
+                "Bewölkt",
+                "D9000",
+                "D10000",
+                "Blitz",
+                "Fluoreszierend",
+                "Wasser",
+                "Draussen"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "EV Value",
+              "cmd" : "video_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "ISO",
+              "cmd" : "video_iso",
+              "list" : [
+                "Auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Dosierung",
+              "cmd" : "video_metering",
+              "list" : [
+                "Multi-Punkt",
+                "Zentrum",
+                "Single Point"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            }
+          ],
+          "title" : "Video Einstell- ungen"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Foto Größe",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M (4608x3456 4:3)",
+                "14M (4254x3264 4:3)",
+                "12M (4000x3000 4:3)",
+                "8.3M (3840x2160 16:9)",
+                "5M (2560x1920 4:3)",
+                "3M (2048x1536 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Foto Wasserzeichen",
+              "cmd" : "photo_stamp",
+              "list" : [
+                "Aus",
+                "Datum",
+                "Zeit",
+                "Datum _ Zeit"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Selbstauslöser",
+              "cmd" : "photo_selftimer",
+              "list" : [
+                "2 Sekunden",
+                "3 Sekunden",
+                "5 Sekunden",
+                "10 Sekunden",
+                "30 Sekunden",
+                "60 Sekunden"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Burst Rate",
+              "cmd" : "photo_burstrate",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Zeitraffer Foto",
+              "cmd" : "photo_autoshoot",
+              "list" : [
+                "3 Sekunden",
+                "5 Sekunden",
+                "10 Sekunden",
+                "30 Sekunden",
+                "60 Sekunden"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Schärfe",
+              "cmd" : "photo_sharpness",
+              "list" : [
+                "Weich",
+                "Normal",
+                "Stark"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "AWB",
+              "cmd" : "photo_wb",
+              "list" : [
+                "Auto",
+                "Glühlampe",
+                "D4000",
+                "D5000",
+                "Tageslicht",
+                "Bewölkt",
+                "D9000",
+                "D10000",
+                "Blitz",
+                "Fluoreszierend",
+                "Wasser",
+                "Draussen"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "EV Value",
+              "cmd" : "photo_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "ISO",
+              "cmd" : "photo_iso",
+              "list" : [
+                "Auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Dosierung",
+              "cmd" : "photo_metering",
+              "list" : [
+                "Multi-Punkt",
+                "Zentrum",
+                "Single Point"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            }
+          ],
+          "title" : "Standbild Einstell- ungen"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Quick Capture",
+              "cmd" : "quick_capture",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Gyro Fühler",
+              "cmd" : "eis",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Motion Detection",
+              "cmd" : "detection",
+              "list" : [
+                "Aus",
+                "Low",
+                "Mittel",
+                " Hohe"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Verzögern Aus",
+              "cmd" : "delay_off",
+              "list" : [
+                "Aus",
+                "5 Sekunden",
+                "10 Sekunden",
+                "20 Sekunden",
+                "30 Sekunden",
+                "60 Sekunden"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Auto DVR",
+              "cmd" : "auto_dvr",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "TV-Modus",
+              "cmd" : "tv_mode",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Licht Freq",
+              "cmd" : "light_freq",
+              "list" : [
+                "Auto",
+                "50HZ",
+                "60HZ"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "OSD",
+              "cmd" : "osd",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Auto Schließung",
+              "cmd" : "auto_shutdown",
+              "list" : [
+                "Aus",
+                "3 Minuten",
+                "5 Minuten",
+                "10 Minuten"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 11,
+              "title" : "Automatische Bildschirmschoner",
+              "cmd" : "screen_off",
+              "list" : [
+                " Aus",
+                "30 Sekunden",
+                "1 Minuten",
+                "3 Minuten",
+                "5 Minuten"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 12,
+              "title" : "Statusanzeige",
+              "cmd" : "status_led",
+              "list" : [
+                "Aus",
+                "1",
+                "2",
+                "3"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 13,
+              "title" : "Summer",
+              "cmd" : "beep",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 14,
+              "title" : "Aufnahmelaut",
+              "cmd" : "mic_volume",
+              "list" : [
+                "Aus",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 15,
+              "title" : "Datumsformat",
+              "cmd" : "date_format",
+              "list" : [
+                "Y\/M\/D",
+                "D\/M\/Y",
+                "M\/D\/Y"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 16,
+              "title" : "Sprache",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "Francais",
+                "日本語",
+                "português",
+                "Suomi",
+                "عربية ",
+                "Polski",
+                "Indonesia",
+                "Nederlands",
+                "Svensk",
+                "Čeština",
+                "Românesc",
+                "slovenského jazyk",
+                "Hungarian"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Formatierung",
+              "cmd" : "format",
+              "list" : [
+                "Formatierung？"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 17,
+              "title" : "Standardeinstellung",
+              "cmd" : "default_setting",
+              "list" : [
+                "Standardeinstellung?"
+              ],
+              "paramValue" : null,
+              "type" : 6
+            }
+          ],
+          "title" : "Andere Einstell- ungen"
+        }
+      ]
+    },
+    {
+      "Language" : "fr",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Résolution vidéo",
+              "cmd" : "video_resolution",
+              "list" : [
+                "4K 30fps 16:9",
+                "4K 25fps SV",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps SV",
+                "2.7K 30fps 16:9",
+                "2.5K 60fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 60fps 4:3",
+                "1440P 30fps 4:3",
+                "1080P 120fps 16:9",
+                "1080P 60fps 16:9",
+                "1080P 30fps 16:9",
+                "1080P 60fps SV",
+                "1080P 30fps SV",
+                "960P 120fps 4:3",
+                "960P 60fps 4:3",
+                "960P 30fps 4:3",
+                "720P 240fps 16:9",
+                "720P 120fps 16:9",
+                "720P 60fps 16:9",
+                "720P 30fps 16:9",
+                "720P 120fps SV",
+                "720P 30fps SV"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Qualité Vidéo",
+              "cmd" : "video_quality",
+              "list" : [
+                "Sup.fin",
+                "Fine",
+                "Normale"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Filigrane de la Vidéo",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Temps",
+                "Date _ Temps"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Intervallomètre vidéo",
+              "cmd" : "video_timelapse",
+              "list" : [
+                "1 seconde",
+                "2 secondes",
+                "5 secondes",
+                "10 secondes",
+                "30 secondes",
+                "60 secondes"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "cycle vidéoe",
+              "cmd" : "loop_record",
+              "list" : [
+                "Off",
+                "1 minute",
+                "2 minutes",
+                "3 minutes",
+                "5 minutes"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 3,
+              "orderNo" : 4,
+              "title" : "Intervallomètre vidéo Résolution",
+              "cmd" : "tl_video_res",
+              "list" : [
+                "4K 30fps 16:9",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 30fps 4:3",
+                "1080P 30fps 16:9",
+                "960P 30fps 4:3",
+                "720P 30fps 16:9"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Acuité",
+              "cmd" : "video_sharpness",
+              "list" : [
+                "Doux",
+                "Normale",
+                "Fort"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "AWB",
+              "cmd" : "video_wb",
+              "list" : [
+                "Auto",
+                "Incandescent",
+                "D4000",
+                "D5000",
+                "Daylight",
+                "nuageux",
+                "D9000",
+                "D10000",
+                "Flash",
+                "Fluorescent",
+                "Eau",
+                "De plein air"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "EV Value",
+              "cmd" : "video_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "ISO",
+              "cmd" : "video_iso",
+              "list" : [
+                "Auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Mesure",
+              "cmd" : "video_metering",
+              "list" : [
+                "multi-points",
+                "Centre",
+                "Single Point"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            }
+          ],
+          "title" : "Vidéo Reglages"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Taille",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M (4608x3456 4:3)",
+                "14M (4254x3264 4:3)",
+                "12M (4000x3000 4:3)",
+                "8.3M (3840x2160 16:9)",
+                "5M (2560x1920 4:3)",
+                "3M (2048x1536 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Photo Filigrane",
+              "cmd" : "photo_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Temps",
+                "Date _ Temps"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Retardateur",
+              "cmd" : "photo_selftimer",
+              "list" : [
+                "2 seconds",
+                "3 secondes",
+                "5 secondes",
+                "10 secondes",
+                "30 secondes",
+                "60 secondes"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Taux d'éclatement",
+              "cmd" : "photo_burstrate",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Intervallomètre photo",
+              "cmd" : "photo_autoshoot",
+              "list" : [
+                "3 secondes",
+                "5 secondes",
+                "10 secondes",
+                "30 secondes",
+                "60 secondes"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Acuité",
+              "cmd" : "photo_sharpness",
+              "list" : [
+                "Doux",
+                "Normale",
+                "Fort"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "AWB",
+              "cmd" : "photo_wb",
+              "list" : [
+                "Auto",
+                "Incandescent",
+                "D4000",
+                "D5000",
+                "Daylight",
+                "nuageux",
+                "D9000",
+                "D10000",
+                "Flash",
+                "Fluorescent",
+                "Eau",
+                "De plein air"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "EV Value",
+              "cmd" : "photo_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "ISO",
+              "cmd" : "photo_iso",
+              "list" : [
+                "Auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Mesure",
+              "cmd" : "photo_metering",
+              "list" : [
+                "multi-points",
+                "Centre",
+                "Single Point"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            }
+          ],
+          "title" : "fixe Reglages"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Quick Capture",
+              "cmd" : "quick_capture",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Gyro stabilisateur",
+              "cmd" : "eis",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Détection",
+              "cmd" : "detection",
+              "list" : [
+                "Off",
+                " Faible",
+                " Medium",
+                " Haute"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Délai d'arrêt",
+              "cmd" : "delay_off",
+              "list" : [
+                "Off",
+                "5 secondes",
+                "10 seconds",
+                "20 seconds",
+                "30 secondes",
+                "60 secondes"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Auto DVR",
+              "cmd" : "auto_dvr",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "Mode de TV",
+              "cmd" : "tv_mode",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Freq lumière",
+              "cmd" : "light_freq",
+              "list" : [
+                "Auto",
+                "50HZ",
+                "60HZ"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "OSD",
+              "cmd" : "osd",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "arrêt automatique",
+              "cmd" : "auto_shutdown",
+              "list" : [
+                "Off",
+                "3 minutes",
+                "5 minutes",
+                "10 minutes"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 11,
+              "title" : "automatique d'écran",
+              "cmd" : "screen_off",
+              "list" : [
+                "Off",
+                "30 secondes",
+                "1 minute",
+                "3 minutes",
+                "5 minutes"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 12,
+              "title" : "Indicateur d'état",
+              "cmd" : "status_led",
+              "list" : [
+                "Off",
+                "1",
+                "2",
+                "3"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 13,
+              "title" : "Beep",
+              "cmd" : "beep",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 14,
+              "title" : "Volume d'enregistrement",
+              "cmd" : "mic_volume",
+              "list" : [
+                "Off",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 15,
+              "title" : "Format de date",
+              "cmd" : "date_format",
+              "list" : [
+                "Y\/M\/D",
+                "D\/M\/Y",
+                "M\/D\/Y"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 16,
+              "title" : "La langue",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "Francais",
+                "日本語",
+                "português",
+                "Suomi",
+                "عربية ",
+                "Polski",
+                "Indonesia",
+                "Nederlands",
+                "Svensk",
+                "Čeština",
+                "Românesc",
+                "slovenského jazyk",
+                "Hungarian"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Formatage",
+              "cmd" : "format",
+              "list" : [
+                "Formatage？"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 17,
+              "title" : "Le réglage par défaut",
+              "cmd" : "default_setting",
+              "list" : [
+                "Le réglage par défaut?"
+              ],
+              "paramValue" : null,
+              "type" : 6
+            }
+          ],
+          "title" : "Autre Reglages"
+        }
+      ]
+    },
+    {
+      "Language" : "cs",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Video Resolution",
+              "cmd" : "video_resolution",
+              "list" : [
+                "4K 30fps 16:9",
+                "4K 25fps SV",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps SV",
+                "2.7K 30fps 16:9",
+                "2.5K 60fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 60fps 4:3",
+                "1440P 30fps 4:3",
+                "1080P 120fps 16:9",
+                "1080P 60fps 16:9",
+                "1080P 30fps 16:9",
+                "1080P 60fps SV",
+                "1080P 30fps SV",
+                "960P 120fps 4:3",
+                "960P 60fps 4:3",
+                "960P 30fps 4:3",
+                "720P 240fps 16:9",
+                "720P 120fps 16:9",
+                "720P 60fps 16:9",
+                "720P 30fps 16:9",
+                "720P 120fps SV",
+                "720P 30fps SV"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Video Quality",
+              "cmd" : "video_quality",
+              "list" : [
+                "S.Fine",
+                "Fine",
+                "Normal"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Video Stamp",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Time",
+                "date\/time"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Timelapse Video",
+              "cmd" : "video_timelapse",
+              "list" : [
+                "1 Second",
+                "2 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Loop Record",
+              "cmd" : "loop_record",
+              "list" : [
+                "Off",
+                "1 Min",
+                "2 Min",
+                "3 Min",
+                "5 Min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 3,
+              "orderNo" : 4,
+              "title" : "Timelapse Video Resolution",
+              "cmd" : "tl_video_res",
+              "list" : [
+                "4K 30fps 16:9",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 30fps 4:3",
+                "1080P 30fps 16:9",
+                "960P 30fps 4:3",
+                "720P 30fps 16:9"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Sharpness",
+              "cmd" : "video_sharpness",
+              "list" : [
+                "soft",
+                "normal",
+                "strong"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "AWB",
+              "cmd" : "video_wb",
+              "list" : [
+                "auto",
+                "incandescent",
+                "D4000",
+                "D5000",
+                "sunny",
+                "clouldy",
+                "D9000",
+                "D10000",
+                "flash",
+                "fluorescent",
+                "water",
+                "outdoor"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "EV Value",
+              "cmd" : "video_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "ISO",
+              "cmd" : "video_iso",
+              "list" : [
+                "auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Metering",
+              "cmd" : "video_metering",
+              "list" : [
+                "Multi",
+                "Center",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Setting"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Size",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M (4608x3456 4:3)",
+                "14M (4254x3264 4:3)",
+                "12M (4000x3000 4:3)",
+                "8.3M (3840x2160 16:9)",
+                "5M (2560x1920 4:3)",
+                "3M (2048x1536 4:3)"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Photo Stamp",
+              "cmd" : "photo_stamp",
+              "list" : [
+                "Off",
+                "date",
+                "time",
+                "date\/time"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Self Timer",
+              "cmd" : "photo_selftimer",
+              "list" : [
+                "2 Seconds",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Photo Burst",
+              "cmd" : "photo_burstrate",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Timelapse Photo",
+              "cmd" : "photo_autoshoot",
+              "list" : [
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Sharpness",
+              "cmd" : "photo_sharpness",
+              "list" : [
+                "soft",
+                "normal",
+                "strong"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "AWB",
+              "cmd" : "photo_wb",
+              "list" : [
+                "auto",
+                "incandescent",
+                "D4000",
+                "D5000",
+                "sunny",
+                "clouldy",
+                "D9000",
+                "D10000",
+                "flash",
+                "fluorescent",
+                "water",
+                "outdoor"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "EV Value",
+              "cmd" : "photo_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "ISO",
+              "cmd" : "photo_iso",
+              "list" : [
+                "auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Metering",
+              "cmd" : "photo_metering",
+              "list" : [
+                "Multi",
+                "Center",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Photo Setting"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Detection",
+              "cmd" : "detection",
+              "list" : [
+                "Off",
+                "Low",
+                "Medium",
+                "High"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Gyro Sensor",
+              "cmd" : "eis",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Quick Capture",
+              "cmd" : "quick_capture",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Delay Off",
+              "cmd" : "delay_off",
+              "list" : [
+                "Off",
+                "5 Seconds",
+                "10 Seconds",
+                "20 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Auto DVR",
+              "cmd" : "auto_dvr",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "TV Mode",
+              "cmd" : "tv_mode",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Light Freq",
+              "cmd" : "light_freq",
+              "list" : [
+                "Auto",
+                "50HZ",
+                "60HZ"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "OSD",
+              "cmd" : "osd",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Auto Shutdown",
+              "cmd" : "auto_shutdown",
+              "list" : [
+                "Off",
+                "3 Min",
+                "5 Min",
+                "10 Min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 11,
+              "title" : "Screen Off",
+              "cmd" : "screen_off",
+              "list" : [
+                "Off",
+                "30 Seconds",
+                "1 Min",
+                "3 Min",
+                "5 Min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 12,
+              "title" : "Status LED",
+              "cmd" : "status_led",
+              "list" : [
+                "Off",
+                "1",
+                "2",
+                "3"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 13,
+              "title" : "Beep",
+              "cmd" : "beep",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 14,
+              "title" : "Mic Volume",
+              "cmd" : "mic_volume",
+              "list" : [
+                "Off",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 15,
+              "title" : "Date Format",
+              "cmd" : "date_format",
+              "list" : [
+                "Y\/M\/D",
+                "D\/M\/Y",
+                "M\/D\/Y"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 16,
+              "title" : "Language",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "Francais",
+                "日本語",
+                "português",
+                "Suomi",
+                "عربية ",
+                "Polski",
+                "Indonesia",
+                "Nederlands",
+                "Svensk",
+                "Čeština",
+                "Românesc",
+                "slovenského jazyk",
+                "Hungarian"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Format",
+              "cmd" : "format",
+              "list" : [
+                "Format SD card?"
+              ],
+              "paramValue" : null,
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 17,
+              "title" : "Default Setting",
+              "cmd" : "default_setting",
+              "list" : [
+                "Default Setting?"
+              ],
+              "paramValue" : null,
+              "type" : 6
+            }
+          ],
+          "title" : "Other Setting"
+        }
+      ]
+    },
+    {
+      "Language" : "th",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Video Resolution",
+              "cmd" : "video_resolution",
+              "list" : [
+                "4K 30fps 16:9",
+                "4K 25fps SV",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps SV",
+                "2.7K 30fps 16:9",
+                "2.5K 60fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 60fps 4:3",
+                "1440P 30fps 4:3",
+                "1080P 120fps 16:9",
+                "1080P 60fps 16:9",
+                "1080P 30fps 16:9",
+                "1080P 60fps SV",
+                "1080P 30fps SV",
+                "960P 120fps 4:3",
+                "960P 60fps 4:3",
+                "960P 30fps 4:3",
+                "720P 240fps 16:9",
+                "720P 120fps 16:9",
+                "720P 60fps 16:9",
+                "720P 30fps 16:9",
+                "720P 120fps SV",
+                "720P 30fps SV"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Video Quality",
+              "cmd" : "video_quality",
+              "list" : [
+                "S.Fine",
+                "Fine",
+                "Normal"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Video Stamp",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Time",
+                "date\/time"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Timelapse Video",
+              "cmd" : "video_timelapse",
+              "list" : [
+                "1 Second",
+                "2 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Loop Record",
+              "cmd" : "loop_record",
+              "list" : [
+                "Off",
+                "1 Min",
+                "2 Min",
+                "3 Min",
+                "5 Min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 3,
+              "orderNo" : 4,
+              "title" : "Timelapse Video Resolution",
+              "cmd" : "tl_video_res",
+              "list" : [
+                "4K 30fps 16:9",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 30fps 4:3",
+                "1080P 30fps 16:9",
+                "960P 30fps 4:3",
+                "720P 30fps 16:9"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Sharpness",
+              "cmd" : "video_sharpness",
+              "list" : [
+                "soft",
+                "normal",
+                "strong"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "AWB",
+              "cmd" : "video_wb",
+              "list" : [
+                "auto",
+                "incandescent",
+                "D4000",
+                "D5000",
+                "sunny",
+                "clouldy",
+                "D9000",
+                "D10000",
+                "flash",
+                "fluorescent",
+                "water",
+                "outdoor"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "EV Value",
+              "cmd" : "video_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "ISO",
+              "cmd" : "video_iso",
+              "list" : [
+                "auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Metering",
+              "cmd" : "video_metering",
+              "list" : [
+                "Multi",
+                "Center",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Setting"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Size",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M (4608x3456 4:3)",
+                "14M (4254x3264 4:3)",
+                "12M (4000x3000 4:3)",
+                "8.3M (3840x2160 16:9)",
+                "5M (2560x1920 4:3)",
+                "3M (2048x1536 4:3)"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Photo Stamp",
+              "cmd" : "photo_stamp",
+              "list" : [
+                "Off",
+                "date",
+                "time",
+                "date\/time"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Self Timer",
+              "cmd" : "photo_selftimer",
+              "list" : [
+                "2 Seconds",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Photo Burst",
+              "cmd" : "photo_burstrate",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Timelapse Photo",
+              "cmd" : "photo_autoshoot",
+              "list" : [
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Sharpness",
+              "cmd" : "photo_sharpness",
+              "list" : [
+                "soft",
+                "normal",
+                "strong"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "AWB",
+              "cmd" : "photo_wb",
+              "list" : [
+                "auto",
+                "incandescent",
+                "D4000",
+                "D5000",
+                "sunny",
+                "clouldy",
+                "D9000",
+                "D10000",
+                "flash",
+                "fluorescent",
+                "water",
+                "outdoor"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "EV Value",
+              "cmd" : "photo_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "ISO",
+              "cmd" : "photo_iso",
+              "list" : [
+                "auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Metering",
+              "cmd" : "photo_metering",
+              "list" : [
+                "Multi",
+                "Center",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Photo Setting"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Detection",
+              "cmd" : "detection",
+              "list" : [
+                "Off",
+                "Low",
+                "Medium",
+                "High"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Gyro Sensor",
+              "cmd" : "eis",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Quick Capture",
+              "cmd" : "quick_capture",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Delay Off",
+              "cmd" : "delay_off",
+              "list" : [
+                "Off",
+                "5 Seconds",
+                "10 Seconds",
+                "20 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Auto DVR",
+              "cmd" : "auto_dvr",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "TV Mode",
+              "cmd" : "tv_mode",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Light Freq",
+              "cmd" : "light_freq",
+              "list" : [
+                "Auto",
+                "50HZ",
+                "60HZ"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "OSD",
+              "cmd" : "osd",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Auto Shutdown",
+              "cmd" : "auto_shutdown",
+              "list" : [
+                "Off",
+                "3 Min",
+                "5 Min",
+                "10 Min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 11,
+              "title" : "Screen Off",
+              "cmd" : "screen_off",
+              "list" : [
+                "Off",
+                "30 Seconds",
+                "1 Min",
+                "3 Min",
+                "5 Min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 12,
+              "title" : "Status LED",
+              "cmd" : "status_led",
+              "list" : [
+                "Off",
+                "1",
+                "2",
+                "3"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 13,
+              "title" : "Beep",
+              "cmd" : "beep",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 14,
+              "title" : "Mic Volume",
+              "cmd" : "mic_volume",
+              "list" : [
+                "Off",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 15,
+              "title" : "Date Format",
+              "cmd" : "date_format",
+              "list" : [
+                "Y\/M\/D",
+                "D\/M\/Y",
+                "M\/D\/Y"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 16,
+              "title" : "Language",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "Francais",
+                "日本語",
+                "português",
+                "Suomi",
+                "عربية ",
+                "Polski",
+                "Indonesia",
+                "Nederlands",
+                "Svensk",
+                "Čeština",
+                "Românesc",
+                "slovenského jazyk",
+                "Hungarian"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Format",
+              "cmd" : "format",
+              "list" : [
+                "Format SD card?"
+              ],
+              "paramValue" : null,
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 17,
+              "title" : "Default Setting",
+              "cmd" : "default_setting",
+              "list" : [
+                "Default Setting?"
+              ],
+              "paramValue" : null,
+              "type" : 6
+            }
+          ],
+          "title" : "Other Setting"
+        }
+      ]
+    },
+    {
+      "Language" : "pl",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Rozdzielczosc wideo",
+              "cmd" : "video_resolution",
+              "list" : [
+                "4K 30fps 16:9",
+                "4K 25fps SV",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps SV",
+                "2.7K 30fps 16:9",
+                "2.5K 60fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 60fps 4:3",
+                "1440P 30fps 4:3",
+                "1080P 120fps 16:9",
+                "1080P 60fps 16:9",
+                "1080P 30fps 16:9",
+                "1080P 60fps SV",
+                "1080P 30fps SV",
+                "960P 120fps 4:3",
+                "960P 60fps 4:3",
+                "960P 30fps 4:3",
+                "720P 240fps 16:9",
+                "720P 120fps 16:9",
+                "720P 60fps 16:9",
+                "720P 30fps 16:9",
+                "720P 120fps SV",
+                "720P 30fps SV"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Jakość wideo",
+              "cmd" : "video_quality",
+              "list" : [
+                "Doskonala",
+                "Bardzo dobra",
+                "Normal"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Znak wodny Wideo",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Wyl.",
+                "Data",
+                "Czas",
+                "Data _ Czas"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Wideo przyspiesz.",
+              "cmd" : "video_timelapse",
+              "list" : [
+                "1 Sekundy",
+                "2 Sekundy",
+                "5 Sekundy",
+                "10 Sekundy",
+                "30 Sekundy",
+                "60 Sekundy"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Nagrywanie w petl",
+              "cmd" : "loop_record",
+              "list" : [
+                "Wyl.",
+                "1 min",
+                "2 min",
+                "3 min",
+                "5 min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 3,
+              "orderNo" : 4,
+              "title" : "Wideo przyspiesz. Rozdzielczosc",
+              "cmd" : "tl_video_res",
+              "list" : [
+                "4K 30fps 16:9",
+                "2160P 30fps 4:3",
+                "2.7K 30fps 4:3",
+                "2.7K 30fps 16:9",
+                "2.5K 30fps 16:9",
+                "1440P 30fps 4:3",
+                "1080P 30fps 16:9",
+                "960P 30fps 4:3",
+                "720P 30fps 16:9"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Ostrość",
+              "cmd" : "video_sharpness",
+              "list" : [
+                "Miękki",
+                "Normal",
+                "Silny"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "AWB",
+              "cmd" : "video_wb",
+              "list" : [
+                "Auto",
+                "Zarowka",
+                "D4000",
+                "D5000",
+                "Dzien",
+                "Pochmurnie",
+                "D9000",
+                "D10000",
+                "lampa błyskowa",
+                "fluorescencyjny",
+                "woda",
+                "Na wolnym powietrzu"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "EV Value",
+              "cmd" : "video_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "ISO",
+              "cmd" : "video_iso",
+              "list" : [
+                "Auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "metr",
+              "cmd" : "video_metering",
+              "list" : [
+                "Multi",
+                "Center",
+                "Punkt"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Ustawienia"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Rozmiar zdjęcia",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M (4608x3456 4:3)",
+                "14M (4254x3264 4:3)",
+                "12M (4000x3000 4:3)",
+                "8.3M (3840x2160 16:9)",
+                "5M (2560x1920 4:3)",
+                "3M (2048x1536 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Zdjęcie Watermark",
+              "cmd" : "photo_stamp",
+              "list" : [
+                "Wyl.",
+                "Data",
+                "Czas",
+                "Data _ Czas"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Samowyzwalacz",
+              "cmd" : "photo_selftimer",
+              "list" : [
+                "2 Sekundy",
+                "3 Sekundy",
+                "5 Sekundy",
+                "10 Sekundy",
+                "30 Sekundy",
+                "60 Sekundy"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Seria zdje",
+              "cmd" : "photo_burstrate",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Foto przyspiesz.",
+              "cmd" : "photo_autoshoot",
+              "list" : [
+                "3 Sekundy",
+                "5 Sekundy",
+                "10 Sekundy",
+                "30 Sekundy",
+                "60 Sekundy"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Ostrość",
+              "cmd" : "photo_sharpness",
+              "list" : [
+                "Miękki",
+                "Normal",
+                "Silny"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "AWB",
+              "cmd" : "photo_wb",
+              "list" : [
+                "Auto",
+                "Zarowka",
+                "D4000",
+                "D5000",
+                "Dzien",
+                "Pochmurnie",
+                "D9000",
+                "D10000",
+                "lampa błyskowa",
+                "fluorescencyjny",
+                "woda",
+                "Na wolnym powietrzu"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "EV Value",
+              "cmd" : "photo_ev",
+              "list" : [
+                "-2.0",
+                "-1.7",
+                "-1.3",
+                "-1.0",
+                "-0.7",
+                "-0.3",
+                "0.0",
+                "+0.3",
+                "+0.7",
+                "+1.0",
+                "+1.3",
+                "+1.7",
+                "+2.0"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "ISO",
+              "cmd" : "photo_iso",
+              "list" : [
+                "Auto",
+                "100",
+                "200",
+                "400",
+                "800",
+                "1600"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "metr",
+              "cmd" : "photo_metering",
+              "list" : [
+                "Multi",
+                "Center",
+                "Punkt"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Klatka Ustawienia"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "szybkie przechwytywania",
+              "cmd" : "quick_capture",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Gyro Czujnik",
+              "cmd" : "eis",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Detekcja ruchu",
+              "cmd" : "detection",
+              "list" : [
+                "Wyl.",
+                " Niska",
+                " Srednia",
+                " Wysoka"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Opoznione",
+              "cmd" : "delay_off",
+              "list" : [
+                "Wyl.",
+                "5 Sekundy",
+                "10 Sekundy",
+                "20 Sekundy",
+                "30 Sekundy",
+                "60 Sekundy"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Auto DVR",
+              "cmd" : "auto_dvr",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "TV Mode",
+              "cmd" : "tv_mode",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Czestotliwosc",
+              "cmd" : "light_freq",
+              "list" : [
+                "Auto",
+                "50HZ",
+                "60HZ"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "OSD",
+              "cmd" : "osd",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Automatyczne wyl",
+              "cmd" : "auto_shutdown",
+              "list" : [
+                "Wyl.",
+                "3 min",
+                "5 min",
+                "10 min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 11,
+              "title" : "Wyl. Ekranu",
+              "cmd" : "screen_off",
+              "list" : [
+                "Wyl.",
+                "30 Sekundy",
+                "1 min",
+                "3 min",
+                "5 min"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 12,
+              "title" : "Diody LED",
+              "cmd" : "status_led",
+              "list" : [
+                "Wyl.",
+                "1",
+                "2",
+                "3"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 13,
+              "title" : "Brzęczyk",
+              "cmd" : "beep",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 14,
+              "title" : "Głośność nagrywania",
+              "cmd" : "mic_volume",
+              "list" : [
+                "Wyl.",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 15,
+              "title" : "Format_daty",
+              "cmd" : "date_format",
+              "list" : [
+                "Y\/M\/D",
+                "D\/M\/Y",
+                "M\/D\/Y"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 16,
+              "title" : "Język",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "Francais",
+                "日本語",
+                "português",
+                "Suomi",
+                "عربية ",
+                "Polski",
+                "Indonesia",
+                "Nederlands",
+                "Svensk",
+                "Čeština",
+                "Românesc",
+                "slovenského jazyk",
+                "Hungarian"
+              ],
+              "paramValue" : null,
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Formatuj karte",
+              "cmd" : "format",
+              "list" : [
+                "Formatuj karte？"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 17,
+              "title" : "Ustawienia domyslne",
+              "cmd" : "default_setting",
+              "list" : [
+                "Ustawienia domyslne?"
+              ],
+              "paramValue" : null,
+              "type" : 6
+            }
+          ],
+          "title" : "Inne Ustawienia"
+        }
+      ]
+    }
+  ]
+}

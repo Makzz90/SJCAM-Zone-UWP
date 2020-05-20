@@ -1,0 +1,27 @@
+﻿<Application
+    x:Class="SJCAM_Zone.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SJCAM_Zone">
+
+    <Application.Resources>
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="FontFamily" Value="Segoe MDL2 Assets" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Height" Value="48" />
+            <Setter Property="Width" Value="48" />
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+
+        <Style TargetType="GridViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Margin" Value="0" />
+        </Style>
+
+        <SolidColorBrush x:Key="SystemControlHighlightAltBaseHighBrush" Color="Cyan" />
+        <SolidColorBrush x:Key="SystemControlHighlightAltBaseMediumHighBrush" Color="Blue" />
+        <SolidColorBrush x:Key="SystemControlForegroundBaseMediumBrush" Color="White" />
+    </Application.Resources>
+</Application>

@@ -1,0 +1,109 @@
+﻿<Page
+    x:Class="SJCAM_Zone.CameraPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SJCAM_Zone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:vlc="using:VLC"
+    Background="Black">
+
+    <Grid>
+        <vlc:MediaElement x:Name="Media"/>
+
+        <Border Height="48" Width="48" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Transparent" Tapped="Back_Tapped">
+            <Image Source="Assets/Img_camera/ic_back_arrow_mediaedit.png" Height="20"/>
+        </Border>
+
+        <Border Height="48" Width="48" VerticalAlignment="Top" HorizontalAlignment="Right" Background="Transparent" Tapped="Settings_Tapped">
+            <Image Source="Assets/Png/ic_s_menu_setting.png" Height="20"/>
+        </Border>
+
+        <Grid VerticalAlignment="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="80"/>
+            </Grid.RowDefinitions>
+
+            
+
+            <Grid Grid.Row="1" Name="PanelModes">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Background="Transparent" Tapped="Mode_Video_Tapped">
+                    <BitmapIcon UriSource="Assets/Img_camera/ic_camera_record.png" Height="25" Foreground="{Binding Mode_Video_Brush}"/>
+                </Grid>
+
+                <Grid Background="Transparent" Grid.Column="1" Tapped="Mode_Photo_Tapped">
+                    <BitmapIcon UriSource="Assets/Img_camera/ic_camera_capture.png" Height="25" Foreground="{Binding Mode_Photo_Brush}"/>
+                </Grid>
+
+                <Grid Background="Transparent" Grid.Column="2" Tapped="Mode_VideoLaps_Tapped">
+                    <BitmapIcon UriSource="Assets/Img_camera/ic_camera_record_timelapse.png" Height="25" Foreground="{Binding Mode_VideoLaps_Brush}"/>
+                </Grid>
+
+                <Grid Background="Transparent" Grid.Column="3" Tapped="Mode_PhotoLaps_Tapped">
+                    <BitmapIcon UriSource="Assets/Img_camera/ic_camera_capture_timelapse.png" Height="25" Foreground="{Binding Mode_PhotoLaps_Brush}"/>
+                </Grid>
+            </Grid>
+
+            <Grid Margin="0 50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="48"/>
+                    <ColumnDefinition Width="48"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Height="48" Visibility="Collapsed">
+                    <TextBlock HorizontalAlignment="Left" Text="1080p 30fps" VerticalAlignment="Center" Margin="10 0" Foreground="White" Name="textBlockQual"/>
+                </Border>
+                
+                <Border Grid.Column="1" Height="48">
+                    <Image  Source="{Binding Battery, FallbackValue='Assets/Img_camera/ic_battery_4.png'}" Height="20"/>
+                </Border>
+
+                <Border Grid.Column="2" Height="48" Tapped="Power_Tapped">
+                    <Image Source="Assets/Img_camera/close.png" Height="20"/>
+                </Border>
+            </Grid>
+            
+            
+            
+            
+            
+            
+            
+            
+            <Border Height="48" Width="80" HorizontalAlignment="Left" Grid.Row="2" Name="CameraMenu">
+                <Image Source="Assets/Img_camera/ic_camera_menu.png" Height="25"/>
+            </Border>
+
+            <!--<Border Height="60" Margin="10" HorizontalAlignment="Center" Grid.Row="2" Tapped="Record_Tapped">
+                <Image Source="Assets/Img_camera/ic_record_start.png" />
+            </Border>-->
+            <Ellipse Height="50" Width="50" Grid.Row="2" Tapped="Record_Tapped" Fill="Red" Stroke="White" StrokeThickness="4"/>
+
+            <Border Height="48" Width="80" HorizontalAlignment="Right" Grid.Row="2" Background="Transparent" Tapped="Files_Tapped" Name="CameraFiles">
+                <Image Source="Assets/Img_camera/ic_camera_medialib.png" Height="25"/>
+            </Border>
+            
+            
+            
+            
+            
+            
+            
+        </Grid>
+
+        <Grid Name="Overlay"/>
+
+        <MediaElement Name="SoundPhoto" Source="Assets/photoshutter.wav" AutoPlay="False" />
+        <MediaElement Name="SoundVideo" Source="Assets/movierecord.wav" AutoPlay="False" />
+    </Grid>
+</Page>

@@ -1,0 +1,498 @@
+{
+    "International":[
+        {
+            "Language": "en",
+            "section_array": [
+                {
+                    "orderNo": 0,
+                    "row_array": [
+                        {
+                            "cmd": "Resolution",
+                            "isQuickSettings": 1,
+                            "list": [
+                                "4K (3840x2160) 25FPS",
+                                "4K (3840x2160) 30FPS",
+                                "4K (3840x2160) 50FPS",
+                                "4K (3840x2160) 60FPS",
+                                "4K UItra (3840X2160) 30FPS",
+                                "1440 (1920x1440) 25FPS",
+                                "1440 (1920x1440) 30FPS",
+                                "1440 (1920x1440) 50FPS",
+                                "1440 (1920x1440) 60FPS",
+                                "1080(1920x1080) 25FPS",
+                                "1080(1920x1080) 30FPS",
+                                "1080(1920x1080) 50FPS",
+                                "1080(1920x1080) 60FPS",
+                                "1080(1920x1080) 120FPS",
+                                "1080 Ultra(1920X1080) 30FPS",
+                                "1080 Ultra(1920X1080) 60FPS",
+                                "720(1280x720) 240FPS"
+                            ],
+                            "orderNo": 0,
+                            "paramValue": "0",
+                            "title": "Resolution",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "FOV",
+                            "isQuickSettings": 2,
+                            "list": [
+                                "Wide",
+                                "Middle",
+                                "Narrow"
+                            ],
+                            "orderNo": 1,
+                            "paramValue": "0",
+                            "title": "FOV",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "APP Preview",
+                            "isQuickSettings": 3,
+                            "list": [
+                                "On",
+                                "Off"
+                            ],
+                            "orderNo": 2,
+                            "paramValue": "0",
+                            "title": "APP Preview",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Quality",
+                            "isQuickSettings": 4,
+                            "list": [
+                                "Fine",
+                                "Normal",
+                                "Economy"
+                            ],
+                            "orderNo": 3,
+                            "paramValue": "0",
+                            "title": "Quality",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "White Balance",
+                            "isQuickSettings": 5,
+                            "list": [
+                                "Auto",
+                                "sunny day",
+                                "Cloudy",
+                                "Fluorescent",
+                                "Underwater"
+                            ],
+                            "orderNo": 4,
+                            "paramValue": "0",
+                            "title": "White Balance",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Time Stamp",
+                            "isQuickSettings": 6,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 5,
+                            "paramValue": "0",
+                            "title": "Time Stamp",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Gyro Sensor",
+                            "isQuickSettings": 7,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 6,
+                            "paramValue": "0",
+                            "title": "Gyro Sensor",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "File Size",
+                            "isQuickSettings": 8,
+                            "list": [
+                                "1 Minute",
+                                "5 Minutes",
+                                "30 Minutes"
+                            ],
+                            "orderNo": 7,
+                            "paramValue": "0",
+                            "title": "File Size",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Loop Recording",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "On",
+                                "Off"
+                            ],
+                            "orderNo": 8,
+                            "paramValue": "0",
+                            "title": "Loop Recording",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Audio",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 9,
+                            "paramValue": "0",
+                            "title": "Audio",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Volume",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "High",
+                                "Medium",
+                                "Low"
+                            ],
+                            "orderNo": 10,
+                            "paramValue": "0",
+                            "title": "Volume",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Double File",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 11,
+                            "paramValue": "0",
+                            "title": "Double File",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Distortion Correction",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 12,
+                            "paramValue": "0",
+                            "title": "Distortion Correction",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Encodeing",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "H264",
+                                "H265"
+                            ],
+                            "orderNo": 13,
+                            "paramValue": "0",
+                            "title": "Encodeing",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Power On Record",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 14,
+                            "paramValue": "0",
+                            "title": "Power On Record",
+                            "type": 0
+                        }
+                    ],
+                    "title": "Video Setting"
+                },
+                {
+                    "orderNo": 1,
+                    "row_array": [
+                        {
+                            "cmd": "Image Size",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "12M 4032x3024",
+                                "8M 3264x2448"
+                            ],
+                            "orderNo": 15,
+                            "paramValue": "0",
+                            "title": "Image Size",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "White Balance",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Auto",
+                                "sunny day",
+                                "Cloudy",
+                                "Fluorescent",
+                                "Underwater"
+                            ],
+                            "orderNo": 16,
+                            "paramValue": "0",
+                            "title": "White Balance",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Time Stamp",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 17,
+                            "paramValue": "0",
+                            "title": "Time Stamp",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Quality",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Fine",
+                                "Normal",
+                                "Economy"
+                            ],
+                            "orderNo": 18,
+                            "paramValue": "0",
+                            "title": "Quality",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "RAW",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 19,
+                            "paramValue": "0",
+                            "title": "RAW",
+                            "type": 0
+                        }
+                    ],
+                    "title": "Photo Setting"
+                },
+                {
+                    "orderNo": 2,
+                    "row_array": [
+                        {
+                            "cmd": "Format",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Cancel",
+                                "OK"
+                            ],
+                            "orderNo": 20,
+                            "paramValue": "0",
+                            "title": "Format",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "brightness",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "High",
+                                "Normal",
+                                "Low"
+                            ],
+                            "orderNo": 21,
+                            "paramValue": "0",
+                            "title": "brightness",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Voice Contral",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 22,
+                            "paramValue": "0",
+                            "title": "Voice Contral",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "External microphone",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 23,
+                            "paramValue": "0",
+                            "title": "External microphone",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "FPV",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 24,
+                            "paramValue": "0",
+                            "title": "FPV",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "TV Mode",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "NTSC",
+                                "PAL"
+                            ],
+                            "orderNo": 25,
+                            "paramValue": "0",
+                            "title": "TV Mode",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Auto Power Off",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "3 Minutes",
+                                "5 Minutes",
+                                "10 Minutes"
+                            ],
+                            "orderNo": 26,
+                            "paramValue": "0",
+                            "title": "Auto Power Off",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Keypad Tone",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 27,
+                            "paramValue": "0",
+                            "title": "Keypad Tone",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Light Set",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "3",
+                                "2",
+                                "1",
+                                "Off"
+                            ],
+                            "orderNo": 28,
+                            "paramValue": "0",
+                            "title": "Light Set",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Screensavers",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "30 Seconds",
+                                "1 Minute",
+                                "3 Minutes",
+                                "5 Minutes"
+                            ],
+                            "orderNo": 29,
+                            "paramValue": "0",
+                            "title": "Screensavers",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Frequency",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "50 Hz",
+                                "60 Hz"
+                            ],
+                            "orderNo": 30,
+                            "paramValue": "0",
+                            "title": "Frequency",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Rotate",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Off",
+                                "On"
+                            ],
+                            "orderNo": 31,
+                            "paramValue": "0",
+                            "title": "Rotate",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Power On Mode",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Last Mode",
+                                "Video",
+                                "Video Lapse",
+                                "Slow Rec",
+                                "Still",
+                                "Photo Lapse",
+                                "Burst Mode",
+                                "Video+photo",
+                                "Dash Cam",
+                                "Live"
+                            ],
+                            "orderNo": 32,
+                            "paramValue": "0",
+                            "title": "Power On Mode",
+                            "type": 0
+                        },
+                        {
+                            "cmd": "Default Setting",
+                            "isQuickSettings": 0,
+                            "list": [
+                                "Cancel",
+                                "OK"
+                            ],
+                            "orderNo": 33,
+                            "paramValue": "0",
+                            "title": "Default Setting",
+                            "type": 0
+                        }
+                    ],
+                    "title": "Other Setting"
+                }
+            ]
+        }
+    ],
+    "chip": 3,
+    "company": "SJCAM",
+    "devicename": "SJ8 STAR-new",
+    "download": "SJ8STAR/1.0/SJ8_FWUPDATE.bin",
+    "firmware": "V0.00",
+    "is_enabled": true,
+    "launchImage": [
+        {
+            "launchImage_4s": "",
+            "launchImage_5s": "",
+            "launchImage_6p": "",
+            "launchImage_6s": ""
+        }
+    ],
+    "logo": "",
+    "modify_on": "",
+    "noticeList": [
+    ],
+    "panoramictype": 1,
+    "support": "http://support.sjcamhd.com/support/home",
+    "version": "SJCAMSJCAMSJ8STAR"
+}

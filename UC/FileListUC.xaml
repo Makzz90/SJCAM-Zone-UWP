@@ -1,0 +1,117 @@
+﻿<UserControl
+    x:Class="SJCAM_Zone.UC.FileListUC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SJCAM_Zone.UC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    >
+
+    <UserControl.Resources>
+        <Style TargetType="PivotHeaderItem">
+            <Setter Property="Background" Value="Black"/>
+        </Style>
+    </UserControl.Resources>
+    
+    <Grid>
+        <Pivot Foreground="White" Margin="0,0,0,60" SelectionChanged="Pivot_SelectionChanged" Name="pivot">
+            <PivotItem x:Uid="Photos" Header="Photo" Foreground="White">
+                <GridView Name="GridViewPhotos" SizeChanged="GridView_SizeChanged" ItemsSource="{Binding ItemsPhoto}" SelectionMode="None">
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Background="#7FFFFFFF" Margin="2">
+                                <Image Source="{Binding ThumbUri}" Tapped="Image_Tapped"
+                                       Tag="{Binding Name}"/>
+                                <Border Background="#7F000000" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+                                    <TextBlock Text="{Binding Filesize}" Margin="5" Foreground="White"/>
+                                </Border>
+                                
+                                <Grid Visibility="{Binding InDownload}">
+                                    <ProgressBar HorizontalAlignment="Stretch" Value="{Binding DownloadProgress}" Margin="10 0" IsIndeterminate="True"/>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+
+                    <GridView.ItemContainerStyle>
+                        <Style TargetType="GridViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                            <Setter Property="VerticalAlignment" Value="Stretch"/>
+                        </Style>
+                    </GridView.ItemContainerStyle>
+                </GridView>
+            </PivotItem>
+            <PivotItem x:Uid="Videos" Header="Video" Foreground="White">
+                <GridView Name="GridViewVideos" SizeChanged="GridView_SizeChanged" ItemsSource="{Binding ItemsVideo}" SelectionMode="None">
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Background="#77FFFFFF" Margin="2">
+                                <Image Source="{Binding ThumbUri}" Tag="{Binding Name}" Tapped="Image_Tapped_1"/>
+                                <Border Background="#7F000000" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
+                                    <TextBlock Text="{Binding Filesize}" Margin="5" Foreground="White"/>
+                                </Border>
+                                <Image Source="ms-appx:///Assets/Icons/ic_cvd_video.png" Height="15" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="2"/>
+                                <Grid Visibility="{Binding InDownload}">
+                                    <ProgressBar HorizontalAlignment="Stretch" Value="{Binding DownloadProgress}" Margin="10 0" IsIndeterminate="True"/>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+
+                    <GridView.ItemContainerStyle>
+                        <Style TargetType="GridViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                            <Setter Property="VerticalAlignment" Value="Stretch"/>
+                        </Style>
+                    </GridView.ItemContainerStyle>
+                </GridView>
+            </PivotItem>
+        </Pivot>
+
+        <Grid VerticalAlignment="Bottom" Height="50" Background="#E5000000" Name="AppBar">
+            <Grid.RenderTransform >
+                <CompositeTransform TranslateY="0"/>
+            </Grid.RenderTransform>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border HorizontalAlignment="Left" Margin="15 0" Name="Btn_Download" Tapped="Btn_Download_Tapped" VerticalAlignment="Center">
+                <Border.RenderTransform >
+                    <CompositeTransform TranslateY="60"/>
+                </Border.RenderTransform>
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/Icons/i_down_b.png" Height="20" />
+                    <TextBlock x:Uid="Download" Text="Download" FontSize="10" HorizontalAlignment="Center" FontWeight="Light" Foreground="White"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="1" HorizontalAlignment="Center" Tapped="Select_Tapped" VerticalAlignment="Center">
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/Icons/select.png" Height="20" />
+                    <TextBlock x:Uid="Select" Text="Select" FontSize="10" HorizontalAlignment="Center" FontWeight="Light" Foreground="White"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Column="2" HorizontalAlignment="Right" Margin="15 0" Tapped="Btn_Delete_Tapped" Name="Btn_Delete" VerticalAlignment="Center">
+                <Border.RenderTransform >
+                    <CompositeTransform TranslateY="60"/>
+                </Border.RenderTransform>
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/Icons/audio_delete.png" Height="20"/>
+                    <TextBlock x:Uid="Delete" Text="Delete" FontSize="10" HorizontalAlignment="Center" FontWeight="Light" Foreground="White"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Border Height="48" Width="48" VerticalAlignment="Top" HorizontalAlignment="Right" Background="Transparent" Tapped="Close_Tapped">
+            <Image Source="ms-appx:///Assets/Img_camera/ic_back_arrow_mediaedit.png" Height="30"/>
+        </Border>
+    </Grid>
+</UserControl>

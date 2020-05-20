@@ -1,0 +1,2333 @@
+{
+  "launchImage" : [
+    {
+      "launchImage_6s" : "",
+      "launchImage_6p" : "",
+      "launchImage_5s" : "",
+      "launchImage_4s" : ""
+    }
+  ],
+  "modify_on" : "",
+  "is_enabled" : true,
+  "devicename" : "SJ5000+ ",
+  "version" : "3.0.00",
+  "support" : "http:\/\/support.sjcamhd.com\/support\/home",
+  "company" : "SJCAM",
+  "logo" : "",
+  "download" : "",
+  "chip" : 1,
+  "noticeList" : [
+
+  ],
+  "panoramictype" : 1,
+  "firmware" : "0.0",
+  "International" : [
+    {
+      "Language" : "cn",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "视频分辨率",
+              "cmd" : "video_resolution",
+              "list" : [
+                "2304X1296 30P 16:9",
+                "1920X1080 60P 16:9",
+                "1920X1080 30P 16:9",
+                "1600X1200 60P 4:3",
+                "1600X1200 30P 4:3",
+                "1280X960 60P 4:3",
+                "1280X960 30P 4:3",
+                "1280X720 120P 16:9",
+                "1280X720 60P 16:9",
+                "1280X720 30P 16:9",
+                "848X480 240P 16:9",
+                "848X480 120P 16:9",
+                "848X480 60P 16:9",
+                "848X480 30P 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "视频质量",
+              "cmd" : "video_quality",
+              "list" : [
+                "超精细",
+                "精细",
+                "正常"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "慢速录影",
+              "cmd" : "timelapse_video",
+              "list" : [
+                "关",
+                "1秒",
+                "2秒",
+                "5秒",
+                "10秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "TV模式",
+              "cmd" : "video_standard",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "画面旋转",
+              "cmd" : "rotate_image",
+              "list" : [
+                "正常",
+                "影像翻转"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "视频水印",
+              "cmd" : "video_stamp",
+              "list" : [
+                "关",
+                "日期",
+                "时间",
+                "日期_时间"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "视频设置"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "照片尺寸",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M(4608X3456 4:3)",
+                "14M(4608X3072 3:2)",
+                "12M(4608X2592 16:9)",
+                "8M(3264X2448 4:3)",
+                "5M(2560X1920 4:3)",
+                "3M(2048X1536 4:3)",
+                "2M(1920X1080 16:9)",
+                "1.2M(1280X960 4:3)",
+                "VGA(640X480 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "自拍定时器",
+              "cmd" : "selfie_photo",
+              "list" : [
+                "关",
+                "2秒",
+                "3秒",
+                "5秒",
+                "10秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "连拍速度",
+              "cmd" : "burst_photo",
+              "list" : [
+                "3P\/s",
+                "5P\/s",
+                "10P\/s",
+                "20P\/s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "自动拍摄",
+              "cmd" : "autoshoot_photo",
+              "list" : [
+                "关",
+                "3秒",
+                "5秒",
+                "10秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "照片设置"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "WiFi指示灯",
+              "cmd" : "wifi_led_switch",
+              "list" : [
+                "关",
+                "开"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "OSD开关",
+              "cmd" : "osd_switch",
+              "list" : [
+                "关",
+                "开"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "车载模式",
+              "cmd" : "cardvr_switch",
+              "list" : [
+                "关",
+                "开"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "延时关机",
+              "cmd" : "delay_pwroff",
+              "list" : [
+                "关",
+                "5秒",
+                "10秒",
+                "20秒",
+                "30秒",
+                "60秒"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "录音音量",
+              "cmd" : "mic_vol",
+              "list" : [
+                "关",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "语言选择",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "francais",
+                "한국어",
+                "日本語",
+                "português",
+                "español",
+                "عربية ",
+                "Polish"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "日期格式",
+              "cmd" : "date_disp_fmt",
+              "list" : [
+                "Y\/M\/D",
+                "M\/D\/Y",
+                "D\/M\/Y"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "自动屏保",
+              "cmd" : "auto_bkl_off",
+              "list" : [
+                "关",
+                "30秒",
+                "1分钟",
+                "3分钟",
+                "5分钟"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "提示音",
+              "cmd" : "buzzer",
+              "list" : [
+                "关",
+                "开"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "格式化",
+              "cmd" : "4",
+              "list" : [
+                "确定格式化设备SD卡？"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            }
+          ],
+          "title" : "其他设置"
+        }
+      ]
+    },
+    {
+      "Language" : "en",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Video Resolution",
+              "cmd" : "video_resolution",
+              "list" : [
+                "2304X1296 30P 16:9",
+                "1920X1080 60P 16:9",
+                "1920X1080 30P 16:9",
+                "1600X1200 60P 4:3",
+                "1600X1200 30P 4:3",
+                "1280X960 60P 4:3",
+                "1280X960 30P 4:3",
+                "1280X720 120P 16:9",
+                "1280X720 60P 16:9",
+                "1280X720 30P 16:9",
+                "848X480 240P 16:9",
+                "848X480 120P 16:9",
+                "848X480 60P 16:9",
+                "848X480 30P 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Video Quality",
+              "cmd" : "video_quality",
+              "list" : [
+                "S.Fine",
+                "Fine",
+                "Nomal"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Time Lapse",
+              "cmd" : "timelapse_video",
+              "list" : [
+                "Off",
+                "1 Second",
+                "2 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Video Standard",
+              "cmd" : "video_standard",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Image Rotate",
+              "cmd" : "rotate_image",
+              "list" : [
+                "Normal",
+                "Image flip"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Video Stamp",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Time",
+                "Dt_tm"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Setting"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Size",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M(4608X3456 4:3)",
+                "14M(4608X3072 3:2)",
+                "12M(4608X2592 16:9)",
+                "8M(3264X2448 4:3)",
+                "5M(2560X1920 4:3)",
+                "3M(2048X1536 4:3)",
+                "2M(1920X1080 16:9)",
+                "1.2M(1280X960 4:3)",
+                "VGA(640X480 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Self Timer",
+              "cmd" : "selfie_photo",
+              "list" : [
+                "Off",
+                "2 Seconds",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Burst Rate",
+              "cmd" : "burst_photo",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s",
+                "20 P\/s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Auto Shoot",
+              "cmd" : "autoshoot_photo",
+              "list" : [
+                "Off",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Photo Setting"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Wifi LED",
+              "cmd" : "wifi_led_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "OSD",
+              "cmd" : "osd_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Dashcam",
+              "cmd" : "cardvr_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Delay Off",
+              "cmd" : "delay_pwroff",
+              "list" : [
+                "Off",
+                "5 Seconds",
+                "10 Seconds",
+                "15 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Mic Volume",
+              "cmd" : "mic_vol",
+              "list" : [
+                "Off",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Language",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "francais",
+                "한국어",
+                "日本語",
+                "português",
+                "español",
+                "عربية ",
+                "Polish"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "Date Format",
+              "cmd" : "date_disp_fmt",
+              "list" : [
+                "Y\/M\/D",
+                "M\/D\/Y",
+                "D\/M\/Y"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Screen Sleep",
+              "cmd" : "auto_bkl_off",
+              "list" : [
+                "Off",
+                "30 Seconds",
+                "1 Mins",
+                "3 Mins",
+                "5 Mins"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Metering",
+              "cmd" : "meter_mode",
+              "list" : [
+                "Center",
+                "Multi",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Beep",
+              "cmd" : "buzzer",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Format",
+              "cmd" : "4",
+              "list" : [
+                "Format SD card?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            }
+          ],
+          "title" : "Other Setting"
+        }
+      ]
+    },
+    {
+      "Language" : "de",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Videoauflösungen",
+              "cmd" : "video_resolution",
+              "list" : [
+                "2304X1296 30P 16:9",
+                "1920X1080 60P 16:9",
+                "1920X1080 30P 16:9",
+                "1600X1200 60P 4:3",
+                "1600X1200 30P 4:3",
+                "1280X960 60P 4:3",
+                "1280X960 30P 4:3",
+                "1280X720 120P 16:9",
+                "1280X720 60P 16:9",
+                "1280X720 30P 16:9",
+                "848X480 240P 16:9",
+                "848X480 120P 16:9",
+                "848X480 60P 16:9",
+                "848X480 30P 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Videoqualität",
+              "cmd" : "video_quality",
+              "list" : [
+                "S-Fein",
+                "Fein",
+                "Normal"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Zeitraffer",
+              "cmd" : "timelapse_video",
+              "list" : [
+                "Aus",
+                "1 S",
+                "2 S",
+                "5 S",
+                "10 S",
+                "30 S",
+                "60 S"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "TV-Modus",
+              "cmd" : "video_standard",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Drehen",
+              "cmd" : "rotate_image",
+              "list" : [
+                "Normal",
+                "Bilddrehung"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Video Wasserzeichen",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Aus",
+                "Datum",
+                "Zeit",
+                "Datum _ Zeit"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Einstell- ungen"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Foto Größe",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M(4608X3456 4:3)",
+                "14M(4608X3072 3:2)",
+                "12M(4608X2592 16:9)",
+                "8M(3264X2448 4:3)",
+                "5M(2560X1920 4:3)",
+                "3M(2048X1536 4:3)",
+                "2M(1920X1080 16:9)",
+                "1.2M(1280X960 4:3)",
+                "VGA(640X480 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Selbstauslöser",
+              "cmd" : "selfie_photo",
+              "list" : [
+                "Aus",
+                "2 S",
+                "3 S",
+                "5 S",
+                "10 S",
+                "30 S",
+                "60 S"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Burst Rate",
+              "cmd" : "burst_photo",
+              "list" : [
+                "3P\/s",
+                "5P\/s",
+                "10P\/s",
+                "20P\/s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Auto schießen",
+              "cmd" : "autoshoot_photo",
+              "list" : [
+                "Aus",
+                "3 S",
+                "5 S",
+                "10 S",
+                "30 S",
+                "60 S"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Standbild Einstell- ungen"
+        },
+        {
+          "orderNo" : 3,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "WiFi - Lampe",
+              "cmd" : "wifi_led_switch",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "OSD",
+              "cmd" : "osd_switch",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Auto DVR",
+              "cmd" : "cardvr_switch",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Verzögern Aus",
+              "cmd" : "delay_pwroff",
+              "list" : [
+                "Aus",
+                "5 S",
+                "10 S",
+                "15 S",
+                "30 S",
+                "60 S"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Mic Lautstärke",
+              "cmd" : "mic_vol",
+              "list" : [
+                "Aus",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Sprache",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "francais",
+                "한국어",
+                "日本語",
+                "português",
+                "español",
+                "عربية ",
+                "Polish"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "Datumsformat",
+              "cmd" : "date_disp_fmt",
+              "list" : [
+                "Y\/M\/D",
+                "M\/D\/Y",
+                "D\/M\/Y"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Auto Bild",
+              "cmd" : "auto_bkl_off",
+              "list" : [
+                "Aus",
+                "30 S",
+                "1 Minuten",
+                "3 Minuten",
+                "5 Minuten"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Summer",
+              "cmd" : "buzzer",
+              "list" : [
+                "Aus",
+                "Auf"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Formatierung",
+              "cmd" : "4",
+              "list" : [
+                "Formatierung?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            }
+          ],
+          "title" : "Andere Einstell- ungen"
+        }
+      ]
+    },
+    {
+      "Language" : "fr",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Résolutions vidéo",
+              "cmd" : "video_resolution",
+              "list" : [
+                "2304X1296 30P 16:9",
+                "1920X1080 60P 16:9",
+                "1920X1080 30P 16:9",
+                "1600X1200 60P 4:3",
+                "1600X1200 30P 4:3",
+                "1280X960 60P 4:3",
+                "1280X960 30P 4:3",
+                "1280X720 120P 16:9",
+                "1280X720 60P 16:9",
+                "1280X720 30P 16:9",
+                "848X480 240P 16:9",
+                "848X480 120P 16:9",
+                "848X480 60P 16:9",
+                "848X480 30P 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Qualité Vidéo",
+              "cmd" : "video_quality",
+              "list" : [
+                "Sup.fin",
+                "Fine",
+                "Normale"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Time Lapse",
+              "cmd" : "timelapse_video",
+              "list" : [
+                "Off",
+                "1 S",
+                "2 S",
+                "5 S",
+                "10 S",
+                "30 S",
+                "60 S"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Mode de TV",
+              "cmd" : "video_standard",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Tourner",
+              "cmd" : "rotate_image",
+              "list" : [
+                "Normale",
+                "Retournement de l'image"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Filigrane de la Vidéo",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Temps",
+                "Date de _ Temps"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Vidéo Reglages"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Taille",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M(4608X3456 4:3)",
+                "14M(4608X3072 3:2)",
+                "12M(4608X2592 16:9)",
+                "8M(3264X2448 4:3)",
+                "5M(2560X1920 4:3)",
+                "3M(2048X1536 4:3)",
+                "2M(1920X1080 16:9)",
+                "1.2M(1280X960 4:3)",
+                "VGA(640X480 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Retardateur",
+              "cmd" : "selfie_photo",
+              "list" : [
+                "Off",
+                "2 S",
+                "3 S",
+                "5 S",
+                "10 S",
+                "30 S",
+                "60 S"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Taux d'éclatement",
+              "cmd" : "burst_photo",
+              "list" : [
+                "3P\/s",
+                "5P\/s",
+                "10P\/s",
+                "20P\/s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Auto schießen",
+              "cmd" : "autoshoot_photo",
+              "list" : [
+                "Off",
+                "3 S",
+                "5 S",
+                "10 S",
+                "30 S",
+                "60 S"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "fixe Reglages"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Indicateur de WiFi",
+              "cmd" : "wifi_led_switch",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "OSD",
+              "cmd" : "osd_switch",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "DVR du véhicule",
+              "cmd" : "cardvr_switch",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Délai d'arrêt",
+              "cmd" : "delay_pwroff",
+              "list" : [
+                "Off",
+                "5 S",
+                "10 S",
+                "15 S",
+                "30 S",
+                "60 S"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Mic Volume",
+              "cmd" : "mic_vol",
+              "list" : [
+                "Off",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "La langue",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "francais",
+                "한국어",
+                "日本語",
+                "português",
+                "español",
+                "عربية ",
+                "Polish"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "Format de date",
+              "cmd" : "date_disp_fmt",
+              "list" : [
+                "Y\/M\/D",
+                "M\/D\/Y",
+                "D\/M\/Y"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Screensaver",
+              "cmd" : "auto_bkl_off",
+              "list" : [
+                "Off",
+                "30 S",
+                "1 minuti",
+                "3 minuti",
+                "5 minuti"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Beep",
+              "cmd" : "buzzer",
+              "list" : [
+                "Off",
+                "Le"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Formatage",
+              "cmd" : "4",
+              "list" : [
+                "Formatage?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            }
+          ],
+          "title" : "Autre Reglages"
+        }
+      ]
+    },
+    {
+      "Language" : "cs",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Video Resolution",
+              "cmd" : "video_resolution",
+              "list" : [
+                "2304X1296 30P 16:9",
+                "1920X1080 60P 16:9",
+                "1920X1080 30P 16:9",
+                "1600X1200 60P 4:3",
+                "1600X1200 30P 4:3",
+                "1280X960 60P 4:3",
+                "1280X960 30P 4:3",
+                "1280X720 120P 16:9",
+                "1280X720 60P 16:9",
+                "1280X720 30P 16:9",
+                "848X480 240P 16:9",
+                "848X480 120P 16:9",
+                "848X480 60P 16:9",
+                "848X480 30P 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Video Quality",
+              "cmd" : "video_quality",
+              "list" : [
+                "S.Fine",
+                "Fine",
+                "Nomal"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Time Lapse",
+              "cmd" : "timelapse_video",
+              "list" : [
+                "Off",
+                "1 Second",
+                "2 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Video Standard",
+              "cmd" : "video_standard",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Image Rotate",
+              "cmd" : "rotate_image",
+              "list" : [
+                "Normal",
+                "Image flip"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Video Stamp",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Time",
+                "Dt_tm"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Setting"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Size",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M(4608X3456 4:3)",
+                "14M(4608X3072 3:2)",
+                "12M(4608X2592 16:9)",
+                "8M(3264X2448 4:3)",
+                "5M(2560X1920 4:3)",
+                "3M(2048X1536 4:3)",
+                "2M(1920X1080 16:9)",
+                "1.2M(1280X960 4:3)",
+                "VGA(640X480 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Self Timer",
+              "cmd" : "selfie_photo",
+              "list" : [
+                "Off",
+                "2 Seconds",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Burst Rate",
+              "cmd" : "burst_photo",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s",
+                "20 P\/s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Auto Shoot",
+              "cmd" : "autoshoot_photo",
+              "list" : [
+                "Off",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Photo Setting"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Wifi LED",
+              "cmd" : "wifi_led_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "OSD",
+              "cmd" : "osd_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Dashcam",
+              "cmd" : "cardvr_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Delay Off",
+              "cmd" : "delay_pwroff",
+              "list" : [
+                "Off",
+                "5 Seconds",
+                "10 Seconds",
+                "15 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Mic Volume",
+              "cmd" : "mic_vol",
+              "list" : [
+                "Off",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Language",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "francais",
+                "한국어",
+                "日本語",
+                "português",
+                "español",
+                "عربية ",
+                "Polish"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "Date Format",
+              "cmd" : "date_disp_fmt",
+              "list" : [
+                "Y\/M\/D",
+                "M\/D\/Y",
+                "D\/M\/Y"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Screen Sleep",
+              "cmd" : "auto_bkl_off",
+              "list" : [
+                "Off",
+                "30 Seconds",
+                "1 Min",
+                "3 Mins",
+                "5 Mins"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Beep",
+              "cmd" : "buzzer",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Metering",
+              "cmd" : "meter_mode",
+              "list" : [
+                "Center",
+                "Multi",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Format",
+              "cmd" : "4",
+              "list" : [
+                "Format SD card?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            }
+          ],
+          "title" : "Other Setting"
+        }
+      ]
+    },
+    {
+      "Language" : "th",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Video Resolution",
+              "cmd" : "video_resolution",
+              "list" : [
+                "2304X1296 30P 16:9",
+                "1920X1080 60P 16:9",
+                "1920X1080 30P 16:9",
+                "1600X1200 60P 4:3",
+                "1600X1200 30P 4:3",
+                "1280X960 60P 4:3",
+                "1280X960 30P 4:3",
+                "1280X720 120P 16:9",
+                "1280X720 60P 16:9",
+                "1280X720 30P 16:9",
+                "848X480 240P 16:9",
+                "848X480 120P 16:9",
+                "848X480 60P 16:9",
+                "848X480 30P 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Video Quality",
+              "cmd" : "video_quality",
+              "list" : [
+                "S.Fine",
+                "Fine",
+                "Nomal"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Time Lapse",
+              "cmd" : "timelapse_video",
+              "list" : [
+                "Off",
+                "1 Second",
+                "2 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Video Standard",
+              "cmd" : "video_standard",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Image Rotate",
+              "cmd" : "rotate_image",
+              "list" : [
+                "Normal",
+                "Image flip"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Video Stamp",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Off",
+                "Date",
+                "Time",
+                "Dt_tm"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Setting"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Photo Size",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M(4608X3456 4:3)",
+                "14M(4608X3072 3:2)",
+                "12M(4608X2592 16:9)",
+                "8M(3264X2448 4:3)",
+                "5M(2560X1920 4:3)",
+                "3M(2048X1536 4:3)",
+                "2M(1920X1080 16:9)",
+                "1.2M(1280X960 4:3)",
+                "VGA(640X480 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Self Timer",
+              "cmd" : "selfie_photo",
+              "list" : [
+                "Off",
+                "2 Seconds",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Burst Rate",
+              "cmd" : "burst_photo",
+              "list" : [
+                "3 P\/s",
+                "5 P\/s",
+                "10 P\/s",
+                "20 P\/s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Auto Shoot",
+              "cmd" : "autoshoot_photo",
+              "list" : [
+                "Off",
+                "3 Seconds",
+                "5 Seconds",
+                "10 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Photo Setting"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Wifi LED",
+              "cmd" : "wifi_led_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "OSD",
+              "cmd" : "osd_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Dashcam",
+              "cmd" : "cardvr_switch",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Delay Off",
+              "cmd" : "delay_pwroff",
+              "list" : [
+                "Off",
+                "5 Seconds",
+                "10 Seconds",
+                "15 Seconds",
+                "30 Seconds",
+                "60 Seconds"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Mic Volume",
+              "cmd" : "mic_vol",
+              "list" : [
+                "Off",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Language",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "francais",
+                "한국어",
+                "日本語",
+                "português",
+                "español",
+                "عربية ",
+                "Polish"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "Date Format",
+              "cmd" : "date_disp_fmt",
+              "list" : [
+                "Y\/M\/D",
+                "M\/D\/Y",
+                "D\/M\/Y"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Screen Sleep",
+              "cmd" : "auto_bkl_off",
+              "list" : [
+                "Off",
+                "30 Seconds",
+                "1 Min",
+                "3 Mins",
+                "5 Mins"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Beep",
+              "cmd" : "buzzer",
+              "list" : [
+                "Off",
+                "On"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 10,
+              "title" : "Metering",
+              "cmd" : "meter_mode",
+              "list" : [
+                "Center",
+                "Multi",
+                "Spot"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Format",
+              "cmd" : "4",
+              "list" : [
+                "Format SD card?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            }
+          ],
+          "title" : "Other Setting"
+        }
+      ]
+    },
+    {
+      "Language" : "pl",
+      "section_array" : [
+        {
+          "orderNo" : 0,
+          "row_array" : [
+            {
+              "isQuickSettings" : 2,
+              "orderNo" : 0,
+              "title" : "Uchwały wideo",
+              "cmd" : "video_resolution",
+              "list" : [
+                "2304X1296 30P 16:9",
+                "1920X1080 60P 16:9",
+                "1920X1080 30P 16:9",
+                "1600X1200 60P 4:3",
+                "1600X1200 30P 4:3",
+                "1280X960 60P 4:3",
+                "1280X960 30P 4:3",
+                "1280X720 120P 16:9",
+                "1280X720 60P 16:9",
+                "1280X720 30P 16:9",
+                "848X480 240P 16:9",
+                "848X480 120P 16:9",
+                "848X480 60P 16:9",
+                "848X480 30P 16:9"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Jakość wideo",
+              "cmd" : "video_quality",
+              "list" : [
+                "Normal",
+                "Bardzo dobra",
+                "Doskonala"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Time Lapse",
+              "cmd" : "timelapse_video",
+              "list" : [
+                "Wyl.",
+                "1s.",
+                "2s.",
+                "5s.",
+                "10s.",
+                "30s.",
+                "60s."
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Tryb TV",
+              "cmd" : "video_standard",
+              "list" : [
+                "NTSC",
+                "PAL"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Obrót obrazu",
+              "cmd" : "rotate_image",
+              "list" : [
+                "Doskonala",
+                "Odbicie obrazu"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Znak wodny Wideo",
+              "cmd" : "video_stamp",
+              "list" : [
+                "Wyl.",
+                "Data",
+                "Czas",
+                "Data _ Czas"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Video Ustawienia"
+        },
+        {
+          "orderNo" : 1,
+          "row_array" : [
+            {
+              "isQuickSettings" : 1,
+              "orderNo" : 0,
+              "title" : "Rozmiar zdjęcia",
+              "cmd" : "photo_size",
+              "list" : [
+                "16M(4608X3456 4:3)",
+                "14M(4608X3072 3:2)",
+                "12M(4608X2592 16:9)",
+                "8M(3264X2448 4:3)",
+                "5M(2560X1920 4:3)",
+                "3M(2048X1536 4:3)",
+                "2M(1920X1080 16:9)",
+                "1.2M(1280X960 4:3)",
+                "VGA(640X480 4:3)"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "Samowyzwalacz",
+              "cmd" : "selfie_photo",
+              "list" : [
+                "Wyl.",
+                "2s.",
+                "3s.",
+                "5s.",
+                "10s.",
+                "30s.",
+                "60s."
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "Seria zdjec",
+              "cmd" : "burst_photo",
+              "list" : [
+                "3P\/s",
+                "5P\/s",
+                "10P\/s",
+                "20P\/s"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Auto schießen",
+              "cmd" : "autoshoot_photo",
+              "list" : [
+                "Wyl.",
+                "3s.",
+                "5s.",
+                "10s.",
+                "30s.",
+                "60s."
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            }
+          ],
+          "title" : "Klatka Ustawienia"
+        },
+        {
+          "orderNo" : 2,
+          "row_array" : [
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 1,
+              "title" : "WiFi LED",
+              "cmd" : "wifi_led_switch",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 2,
+              "title" : "OSD",
+              "cmd" : "osd_switch",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 3,
+              "title" : "Tryb samochodowy",
+              "cmd" : "cardvr_switch",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 4,
+              "title" : "Opoznione Wyl",
+              "cmd" : "delay_pwroff",
+              "list" : [
+                "Wyl.",
+                "5s.",
+                "10s.",
+                "15s.",
+                "30s.",
+                "60s."
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 5,
+              "title" : "Glosnosc Mikrofonu",
+              "cmd" : "mic_vol",
+              "list" : [
+                "Wyl.",
+                "50%",
+                "60%",
+                "70%",
+                "80%",
+                "90%",
+                "100%"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 6,
+              "title" : "Język",
+              "cmd" : "language",
+              "list" : [
+                "English",
+                "简体中文",
+                "繁體中文",
+                "русский",
+                "Deutsch",
+                "Italiano",
+                "francais",
+                "한국어",
+                "日本語",
+                "português",
+                "español",
+                "عربية ",
+                "Polish"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 7,
+              "title" : "Format_daty",
+              "cmd" : "date_disp_fmt",
+              "list" : [
+                "Y\/M\/D",
+                "M\/D\/Y",
+                "D\/M\/Y"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 8,
+              "title" : "Wyl. Ekranu",
+              "cmd" : "auto_bkl_off",
+              "list" : [
+                "Wyl",
+                "30 s.",
+                "1 Min",
+                "3 Min",
+                "5 Min"
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 9,
+              "title" : "Brzęczyk",
+              "cmd" : "buzzer",
+              "list" : [
+                "Wyl.",
+                "Wl."
+              ],
+              "paramValue" : "0",
+              "type" : 0
+            },
+            {
+              "isQuickSettings" : 0,
+              "orderNo" : 0,
+              "title" : "Format",
+              "cmd" : "4",
+              "list" : [
+                "Format?"
+              ],
+              "paramValue" : "0",
+              "type" : 5
+            }
+          ],
+          "title" : "Inne Ustawienia"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CaptureMode.Text" xml:space="preserve">
+    <value>Режим съёмки</value>
+  </data>
+  <data name="CAPTURESIZE.Text" xml:space="preserve">
+    <value>Размер изображения</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_1.Content" xml:space="preserve">
+    <value>14M 4320x3240</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_2.Content" xml:space="preserve">
+    <value>12M 4032x3024</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_3.Content" xml:space="preserve">
+    <value>10M 3648x2736</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_4.Content" xml:space="preserve">
+    <value>8M 3264x2448</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_5.Content" xml:space="preserve">
+    <value>5M 2592x1944</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_6.Content" xml:space="preserve">
+    <value>3M 2048x1536</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_7.Content" xml:space="preserve">
+    <value>2MHD 1920x1080</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_8.Content" xml:space="preserve">
+    <value>VGA 640x480</value>
+  </data>
+  <data name="CAPTURESIZE_MENU_9.Content" xml:space="preserve">
+    <value>1.3M 1280x960</value>
+  </data>
+  <data name="CAPTURE_WB.Text" xml:space="preserve">
+    <value>Баланс белого</value>
+  </data>
+  <data name="CAPTURE_WB_MENU_1.Content" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="CAPTURE_WB_MENU_2.Content" xml:space="preserve">
+    <value>Дневной свет</value>
+  </data>
+  <data name="CAPTURE_WB_MENU_3.Content" xml:space="preserve">
+    <value>Облачно</value>
+  </data>
+  <data name="CAPTURE_WB_MENU_4.Content" xml:space="preserve">
+    <value>Вольфрам</value>
+  </data>
+  <data name="CAPTURE_WB_MENU_5.Content" xml:space="preserve">
+    <value>Флуоресцентный</value>
+  </data>
+  <data name="CYCLIC_REC.Text" xml:space="preserve">
+    <value>Цикличная запись</value>
+  </data>
+  <data name="CYCLIC_REC_MENU_1.Content" xml:space="preserve">
+    <value>Выкл</value>
+  </data>
+  <data name="CYCLIC_REC_MENU_2.Content" xml:space="preserve">
+    <value>3Мин</value>
+  </data>
+  <data name="CYCLIC_REC_MENU_3.Content" xml:space="preserve">
+    <value>5Мин</value>
+  </data>
+  <data name="CYCLIC_REC_MENU_4.Content" xml:space="preserve">
+    <value>10Мин</value>
+  </data>
+  <data name="DATEIMPRINT.Content" xml:space="preserve">
+    <value>Штамп времени</value>
+  </data>
+  <data name="FORMAT.Content" xml:space="preserve">
+    <value>Форматировать</value>
+  </data>
+  <data name="FREQUENCY.Text" xml:space="preserve">
+    <value>Частота</value>
+  </data>
+  <data name="FREQUENCY_MENU_1.Content" xml:space="preserve">
+    <value>50 Гц</value>
+  </data>
+  <data name="FREQUENCY_MENU_2.Content" xml:space="preserve">
+    <value>60 Гц</value>
+  </data>
+  <data name="MOVIE_AUDIO.Content" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="MOVIE_EV" xml:space="preserve">
+    <value>Экспозиция</value>
+  </data>
+  <data name="MOVIE_HDR.Content" xml:space="preserve">
+    <value>WDR</value>
+  </data>
+  <data name="MOVIE_REC_SIZE.Text" xml:space="preserve">
+    <value>Разрешение</value>
+  </data>
+  <data name="MOVIE_REC_SIZE_MENU_1.Content" xml:space="preserve">
+    <value>1080FHD 1920x1080</value>
+  </data>
+  <data name="MOVIE_REC_SIZE_MENU_2.Content" xml:space="preserve">
+    <value>720P 1280x720 60fps</value>
+  </data>
+  <data name="MOVIE_REC_SIZE_MENU_3.Content" xml:space="preserve">
+    <value>720P 1280x720 30fps</value>
+  </data>
+  <data name="MOVIE_REC_SIZE_MENU_4.Content" xml:space="preserve">
+    <value>WVGA 848x480</value>
+  </data>
+  <data name="MOVIE_REC_SIZE_MENU_5.Content" xml:space="preserve">
+    <value>VGA 640x480</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="POWEROFF.Text" xml:space="preserve">
+    <value>Автоматическое выключение</value>
+  </data>
+  <data name="POWEROFF_MENU_1.Content" xml:space="preserve">
+    <value>Выкл</value>
+  </data>
+  <data name="POWEROFF_MENU_2.Content" xml:space="preserve">
+    <value>3Мин</value>
+  </data>
+  <data name="POWEROFF_MENU_3.Content" xml:space="preserve">
+    <value>5Мин</value>
+  </data>
+  <data name="POWEROFF_MENU_4.Content" xml:space="preserve">
+    <value>10Мин</value>
+  </data>
+  <data name="POWEROFF_MENU_5.Content" xml:space="preserve">
+    <value>Выключить сейчас</value>
+  </data>
+  <data name="sec1.Content" xml:space="preserve">
+    <value>1Сек</value>
+  </data>
+  <data name="sec10.Content" xml:space="preserve">
+    <value>10Сек</value>
+  </data>
+  <data name="sec2.Content" xml:space="preserve">
+    <value>2Сек</value>
+  </data>
+  <data name="sec30.Content" xml:space="preserve">
+    <value>30Сек</value>
+  </data>
+  <data name="sec5.Content" xml:space="preserve">
+    <value>5Сек</value>
+  </data>
+  <data name="sec60.Content" xml:space="preserve">
+    <value>60Сек</value>
+  </data>
+  <data name="SYSRESET.Content" xml:space="preserve">
+    <value>Вернуть настройки к заводским</value>
+  </data>
+  <data name="Timer10S.Content" xml:space="preserve">
+    <value>Таймер на 10С</value>
+  </data>
+  <data name="Timer20S.Content" xml:space="preserve">
+    <value>Таймер на 20С</value>
+  </data>
+  <data name="Timer3S.Content" xml:space="preserve">
+    <value>Таймер на 3С</value>
+  </data>
+  <data name="Timer5S.Content" xml:space="preserve">
+    <value>Таймер на 5С</value>
+  </data>
+  <data name="TITLE_PHOTO.Text" xml:space="preserve">
+    <value>Настройки фотографий</value>
+  </data>
+  <data name="TITLE_PHOTO_LAPS.Text" xml:space="preserve">
+    <value>Интервал фотографий</value>
+  </data>
+  <data name="TITLE_SYSTEM.Text" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="TITLE_VIDEO.Text" xml:space="preserve">
+    <value>Настройки видео</value>
+  </data>
+  <data name="VideoTimelapsset.Text" xml:space="preserve">
+    <value>Интервал видео</value>
+  </data>
+  <data name="WifiName.Text" xml:space="preserve">
+    <value>Имя WiFi</value>
+  </data>
+  <data name="Connect.Text" xml:space="preserve">
+    <value>Подключиться к камере</value>
+  </data>
+  <data name="About1" xml:space="preserve">
+    <value>Неофициальная программа предназначена для управления экшен камерами SJCAM: SJ4000 WiFi, SJ5000X, M20 и Ambarella серии моделей SJ5000.</value>
+  </data>
+  <data name="About2" xml:space="preserve">
+    <value>Автор: Максим Гутиков</value>
+  </data>
+  <data name="About3" xml:space="preserve">
+    <value>Версия: 1.1.0.0</value>
+  </data>
+  <data name="AboutApp.Text" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Download.Text" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="Downloaded" xml:space="preserve">
+    <value>Скачан</value>
+  </data>
+  <data name="Photos.Header" xml:space="preserve">
+    <value>Фотографии</value>
+  </data>
+  <data name="Select.Text" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="Videos.Header" xml:space="preserve">
+    <value>Видеозаписи</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть приложение?</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+</root>
